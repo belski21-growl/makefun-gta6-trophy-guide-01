@@ -1,392 +1,1217 @@
 {
- "game": "Grand Theft Auto VI",
- "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
- "trophies": [
-  {
-   "id": 1,
-   "name": "Vice Got a Price!",
-   "description": "Congratulations! You're a Leonida Legend.",
-   "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
-  },
-  {
-   "id": 2,
-   "name": "Just Like Paradise",
-   "description": "Complete Gone Fishing.",
-   "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
-  },
-  {
-   "id": 3,
-   "name": "Paradise Lost",
-   "description": "Complete Chapter 1.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 1."
-  },
-  {
-   "id": 4,
-   "name": "T**s Ass Drug Money",
-   "description": "Complete Chapter 2.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 2."
-  },
-  {
-   "id": 5,
-   "name": "Vice City, Baby!",
-   "description": "Complete Chapter 3.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 3."
-  },
-  {
-   "id": 6,
-   "name": "Top Of The World, Ma",
-   "description": "Complete Chapter 4.",
-   "grade": "bronze",
-   "guide": "Finish Chapter 4."
-  },
-  {
-   "id": 7,
-   "name": "You Gotta Know When to Get Off",
-   "description": "Complete the final mission.",
-   "grade": "gold",
-   "guide": "Finish the final mission (gold)."
-  },
-  {
-   "id": 8,
-   "name": "Trust",
-   "description": "Complete Breakfast Run.",
-   "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
-  },
-  {
-   "id": 9,
-   "name": "Break the Bank",
-   "description": "Complete The Cartel Heist.",
-   "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
-  },
-  {
-   "id": 10,
-   "name": "Family Matters",
-   "description": "Complete Child's Play.",
-   "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
-  },
-  {
-   "id": 11,
-   "name": "DWNFALL",
-   "description": "Complete Headliners.",
-   "grade": "bronze",
-   "guide": "Finish the mission Headliners."
-  },
-  {
-   "id": 12,
-   "name": "Hi-Jacked",
-   "description": "Complete VCIA Takedown.",
-   "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
-  },
-  {
-   "id": 13,
-   "name": "Snow Storm",
-   "description": "Complete Operation Savage Glory.",
-   "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
-  },
-  {
-   "id": 14,
-   "name": "A Long Road",
-   "description": "Attain 100% Completion.",
-   "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
-  },
-  {
-   "id": 15,
-   "name": "Cunning Stunts",
-   "description": "Complete 250 Stunts.",
-   "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
-  },
-  {
-   "id": 16,
-   "name": "Master of None",
-   "description": "Try each type of activity once.",
-   "grade": "bronze",
-   "guide": "Try all 9 activity types once."
-  },
-  {
-   "id": 17,
-   "name": "The Shootist",
-   "description": "Earn a gold medal in all Shooting Range challenges.",
-   "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
-  },
-  {
-   "id": 18,
-   "name": "Top Fun",
-   "description": "Win a Top Fun Drone Race at every location.",
-   "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
-  },
-  {
-   "id": 19,
-   "name": "Earn Cash, Not Kudos",
-   "description": "Win 20 different races.",
-   "grade": "bronze",
-   "guide": "Win 20 different races."
-  },
-  {
-   "id": 20,
-   "name": "Baited My Tackle",
-   "description": "Beat Cal in a fishing challenge.",
-   "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
-  },
-  {
-   "id": 21,
-   "name": "Stick Fiddler",
-   "description": "Complete an arcade game.",
-   "grade": "bronze",
-   "guide": "Finish one arcade game."
-  },
-  {
-   "id": 22,
-   "name": "Road to Rehabilitation",
-   "description": "Complete the final mission for Andy.",
-   "grade": "bronze",
-   "guide": "Finish Andy's last mission."
-  },
-  {
-   "id": 23,
-   "name": "This Was No Boat Accident",
-   "description": "Complete the final mission for Kenton.",
-   "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
-  },
-  {
-   "id": 24,
-   "name": "The Lone Rider",
-   "description": "Complete the final mission for Billy.",
-   "grade": "bronze",
-   "guide": "Finish Billy's last mission."
-  },
-  {
-   "id": 25,
-   "name": "Strangers & Freaks",
-   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
-   "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
-  },
-  {
-   "id": 26,
-   "name": "Supply & Demand",
-   "description": "Complete the final mission for Randy.",
-   "grade": "bronze",
-   "guide": "Finish Randy's last mission."
-  },
-  {
-   "id": 27,
-   "name": "Spin On This!",
-   "description": "Complete the final mission for Tyrone.",
-   "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
-  },
-  {
-   "id": 28,
-   "name": "Positive Mental Attitude",
-   "description": "Meditate at every spot across Leonida.",
-   "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
-  },
-  {
-   "id": 29,
-   "name": "Fair Game",
-   "description": "Hunt a unique animal for Bret.",
-   "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
-  },
-  {
-   "id": 30,
-   "name": "Don't Touch My Deck",
-   "description": "Complete 3 Collectible Card sets.",
-   "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
-  },
-  {
-   "id": 31,
-   "name": "You WAiNKer!",
-   "description": "WAiNK It at 100 locations.",
-   "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
-  },
-  {
-   "id": 32,
-   "name": "One Last Thing",
-   "description": "Complete 50 Challenges.",
-   "grade": "bronze",
-   "guide": "Finish 50 challenges."
-  },
-  {
-   "id": 33,
-   "name": "Hot Together",
-   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
-   "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
-  },
-  {
-   "id": 34,
-   "name": "Retail Therapy",
-   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
-   "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
-  },
-  {
-   "id": 35,
-   "name": "Whip It Good",
-   "description": "Discover 100 vehicles.",
-   "grade": "bronze",
-   "guide": "Discover 100 vehicles."
-  },
-  {
-   "id": 36,
-   "name": "Gunslinger",
-   "description": "Take down 5 enemies in a single use of Combat Focus.",
-   "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
-  },
-  {
-   "id": 37,
-   "name": "Catch Me If You Can",
-   "description": "Make an unscheduled departure at VCIA.",
-   "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
-  },
-  {
-   "id": 38,
-   "name": "Challenging Tank",
-   "description": "Kinda hot in these Rhinos.",
-   "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
-  },
-  {
-   "id": 39,
-   "name": "Sneakthief",
-   "description": "Rob a jewelry store without being detected.",
-   "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
-  },
-  {
-   "id": 40,
-   "name": "Maximum Withdrawal",
-   "description": "Rob 5 Bank Vaults and escape.",
-   "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
-  },
-  {
-   "id": 41,
-   "name": "A Classic Blitz Play",
-   "description": "Rob an Armored Truck and escape.",
-   "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
-  },
-  {
-   "id": 42,
-   "name": "The Goodtime State",
-   "description": "Explore all of Leonida.",
-   "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
-  },
-  {
-   "id": 43,
-   "name": "Pest Control",
-   "description": "Rob an Illegal Operation belonging to each gang.",
-   "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
-  },
-  {
-   "id": 44,
-   "name": "In The Beginning…",
-   "description": "Enjoy a cocktail with a view on Ocean Beach.",
-   "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
-  },
-  {
-   "id": 45,
-   "name": "Capital Offense",
-   "description": "Smash your way out of a vehicle showroom in classic style.",
-   "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
-  },
-  {
-   "id": 46,
-   "name": "Let’s Go Bowling",
-   "description": "Follow-through at the Kolt & Associates' bowling alley.",
-   "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
-  },
-  {
-   "id": 47,
-   "name": "Personal Best",
-   "description": "A partnership with mass appeal.",
-   "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
-  },
-  {
-   "id": 48,
-   "name": "Actions Speak Louder",
-   "description": "Choices made (for better or worse).",
-   "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
-  },
-  {
-   "id": 49,
-   "name": "Bad Luck, I Guess",
-   "description": "Second time's the charm.",
-   "grade": "bronze",
-   "guide": "Succeed on a second try."
-  },
-  {
-   "id": 50,
-   "name": "The Truth Is Out There",
-   "description": "What the hell just happened?",
-   "grade": "bronze",
-   "guide": "Witness something strange."
-  },
-  {
-   "id": 51,
-   "name": "Ten Pin",
-   "description": "Bowl 'em over with a melee drive-by.",
-   "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
-  },
-  {
-   "id": 52,
-   "name": "Dime on the Dollar",
-   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
-   "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
-  },
-  {
-   "id": 53,
-   "name": "Treat Yo Self",
-   "description": "Spend $100,000 across all shops.",
-   "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
-  },
-  {
-   "id": 54,
-   "name": "Little Boxes",
-   "description": "Purchase all garage properties.",
-   "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
-  },
-  {
-   "id": 55,
-   "name": "On the Spot",
-   "description": "Register 10 vehicles to the Scooter Bros app.",
-   "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
-  }
- ]
+  "game": "Grand Theft Auto VI",
+  "platform": "PlayStation 5",
+  "provenance": "Official text retained from the supplied competition snapshot. That snapshot provides no hidden flags; null means unavailable, not false. No online objective is explicitly stated. Missable flags are precautionary, not verified lockouts.",
+  "trophies": [
+    {
+      "id": 1,
+      "name": "Vice Got a Price!",
+      "description": "Congratulations! You're a Leonida Legend.",
+      "grade": "platinum",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Platinum audit",
+      "guide": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account. Where: Across the full trophy list. Timing: The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
+      "steps": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account.",
+      "where": "Across the full trophy list.",
+      "timing": "The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Just Like Paradise",
+      "description": "Complete Gone Fishing.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears. Where: Mission: Gone Fishing. Its starting point is not supplied. Timing: The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
+      "steps": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears.",
+      "where": "Mission: Gone Fishing. Its starting point is not supplied.",
+      "timing": "The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Paradise Lost",
+      "description": "Complete Chapter 1.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2. Where: Story: Chapter 1. Timing: No optional objective or missable condition is stated.",
+      "steps": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2.",
+      "where": "Story: Chapter 1.",
+      "timing": "No optional objective or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "T**s Ass Drug Money",
+      "description": "Complete Chapter 2.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough. Where: Story: Chapter 2. Timing: No optional objective or missable condition is stated.",
+      "steps": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough.",
+      "where": "Story: Chapter 2.",
+      "timing": "No optional objective or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vice City, Baby!",
+      "description": "Complete Chapter 3.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself. Where: Story: Chapter 3. Timing: No optional objective or missable condition is stated.",
+      "steps": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself.",
+      "where": "Story: Chapter 3.",
+      "timing": "No optional objective or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Top Of The World, Ma",
+      "description": "Complete Chapter 4.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter. Where: Story: Chapter 4. Timing: No optional objective or missable condition is stated.",
+      "steps": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter.",
+      "where": "Story: Chapter 4.",
+      "timing": "No optional objective or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "You Gotta Know When to Get Off",
+      "description": "Complete the final mission.",
+      "grade": "gold",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned. Where: The final story mission; its name is not supplied. Timing: Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
+      "steps": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned.",
+      "where": "The final story mission; its name is not supplied.",
+      "timing": "Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Trust",
+      "description": "Complete Breakfast Run.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list. Where: Mission: Breakfast Run. Timing: No special choice or failure window is stated.",
+      "steps": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list.",
+      "where": "Mission: Breakfast Run.",
+      "timing": "No special choice or failure window is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Break the Bank",
+      "description": "Complete The Cartel Heist.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required. Where: Mission: The Cartel Heist. Timing: No approach-dependent or missable condition is stated.",
+      "steps": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required.",
+      "where": "Mission: The Cartel Heist.",
+      "timing": "No approach-dependent or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Family Matters",
+      "description": "Complete Child's Play.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver. Where: Mission: Child's Play. Timing: No optional objective or failure window is stated.",
+      "steps": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver.",
+      "where": "Mission: Child's Play.",
+      "timing": "No optional objective or failure window is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DWNFALL",
+      "description": "Complete Headliners.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives. Where: Mission: Headliners. Timing: No medal, approach or missable condition is stated.",
+      "steps": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives.",
+      "where": "Mission: Headliners.",
+      "timing": "No medal, approach or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Hi-Jacked",
+      "description": "Complete VCIA Takedown.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock. Where: Mission: VCIA Takedown. Timing: No special approach or failure window is stated.",
+      "steps": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock.",
+      "where": "Mission: VCIA Takedown.",
+      "timing": "No special approach or failure window is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Snow Storm",
+      "description": "Complete Operation Savage Glory.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "story",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Story milestones",
+      "guide": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone. Where: Mission: Operation Savage Glory. Timing: No optional objective or missable condition is stated.",
+      "steps": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone.",
+      "where": "Mission: Operation Savage Glory.",
+      "timing": "No optional objective or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "A Long Road",
+      "description": "Attain 100% Completion.",
+      "grade": "gold",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Platinum audit",
+      "guide": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided. Where: The game-wide completion record. Timing: Requirements and post-story availability are not detailed in the description; retain a separate story save.",
+      "steps": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided.",
+      "where": "The game-wide completion record.",
+      "timing": "Requirements and post-story availability are not detailed in the description; retain a separate story save.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cunning Stunts",
+      "description": "Complete 250 Stunts.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations. Where: Stunt opportunities; no locations are supplied. Timing: No story cutoff is stated. Repetition rules are not documented.",
+      "steps": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations.",
+      "where": "Stunt opportunities; no locations are supplied.",
+      "timing": "No story cutoff is stated. Repetition rules are not documented.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Master of None",
+      "description": "Try each type of activity once.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins. Where: Activity venues found during play. Timing: No cutoff is stated; the complete activity catalogue is not supplied.",
+      "steps": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins.",
+      "where": "Activity venues found during play.",
+      "timing": "No cutoff is stated; the complete activity catalogue is not supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Shootist",
+      "description": "Earn a gold medal in all Shooting Range challenges.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result. Where: Shooting Range challenges. No venue coordinates are supplied. Timing: No cutoff is stated. The description does not specify a challenge count.",
+      "steps": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result.",
+      "where": "Shooting Range challenges. No venue coordinates are supplied.",
+      "timing": "No cutoff is stated. The description does not specify a challenge count.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Top Fun",
+      "description": "Win a Top Fun Drone Race at every location.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one. Where: Every Top Fun Drone Race location. Timing: The description supplies neither a location list nor a count; no cutoff is stated.",
+      "steps": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one.",
+      "where": "Every Top Fun Drone Race location.",
+      "timing": "The description supplies neither a location list nor a count; no cutoff is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Earn Cash, Not Kudos",
+      "description": "Win 20 different races.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement. Where: Race events; specific routes are not supplied. Timing: No cutoff or vehicle class restriction is stated.",
+      "steps": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement.",
+      "where": "Race events; specific routes are not supplied.",
+      "timing": "No cutoff or vehicle class restriction is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Baited My Tackle",
+      "description": "Beat Cal in a fishing challenge.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition. Where: Cal's fishing challenge; its meeting point is not supplied. Timing: Availability windows and winning score are not documented.",
+      "steps": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition.",
+      "where": "Cal's fishing challenge; its meeting point is not supplied.",
+      "timing": "Availability windows and winning score are not documented.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Stick Fiddler",
+      "description": "Complete an arcade game.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm. Where: An arcade game; no arcade location is supplied. Timing: Which games qualify and their completion rules are not documented.",
+      "steps": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm.",
+      "where": "An arcade game; no arcade location is supplied.",
+      "timing": "Which games qualify and their completion rules are not documented.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Road to Rehabilitation",
+      "description": "Complete the final mission for Andy.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one. Where: Andy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
+      "steps": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one.",
+      "where": "Andy's mission strand; starting location unknown.",
+      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "This Was No Boat Accident",
+      "description": "Complete the final mission for Kenton.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton. Where: Kenton's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
+      "steps": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton.",
+      "where": "Kenton's mission strand; starting location unknown.",
+      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "The Lone Rider",
+      "description": "Complete the final mission for Billy.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked. Where: Billy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
+      "steps": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked.",
+      "where": "Billy's mission strand; starting location unknown.",
+      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Strangers & Freaks",
+      "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set. Where: Stranger mission strands throughout Leonida. Timing: No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
+      "steps": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set.",
+      "where": "Stranger mission strands throughout Leonida.",
+      "timing": "No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Supply & Demand",
+      "description": "Complete the final mission for Randy.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished. Where: Randy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
+      "steps": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished.",
+      "where": "Randy's mission strand; starting location unknown.",
+      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Spin On This!",
+      "description": "Complete the final mission for Tyrone.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement. Where: Tyrone's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
+      "steps": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement.",
+      "where": "Tyrone's mission strand; starting location unknown.",
+      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Positive Mental Attitude",
+      "description": "Meditate at every spot across Leonida.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "collectibles",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Collectibles & exploration",
+      "guide": "Keep a checklist of meditation spots discovered in Leonida and meditate at each. Visiting a spot without performing the activity does not establish completion. Where: Meditation spots across Leonida. Timing: No count, coordinates or cutoff is supplied.",
+      "steps": "Keep a checklist of meditation spots discovered in Leonida and meditate at each. Visiting a spot without performing the activity does not establish completion.",
+      "where": "Meditation spots across Leonida.",
+      "timing": "No count, coordinates or cutoff is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Fair Game",
+      "description": "Hunt a unique animal for Bret.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title. Where: Bret's hunting objective; target and region unspecified. Timing: No deadline or repeatability information is supplied.",
+      "steps": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title.",
+      "where": "Bret's hunting objective; target and region unspecified.",
+      "timing": "No deadline or repeatability information is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Don't Touch My Deck",
+      "description": "Complete 3 Collectible Card sets.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "collectibles",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Collectibles & exploration",
+      "guide": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards. Where: Collectible Card sets; individual card locations unspecified. Timing: No missable card or story cutoff is identified in the description.",
+      "steps": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards.",
+      "where": "Collectible Card sets; individual card locations unspecified.",
+      "timing": "No missable card or story cutoff is identified in the description.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "You WAiNKer!",
+      "description": "WAiNK It at 100 locations.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "collectibles",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Collectibles & exploration",
+      "guide": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place. Where: 100 WAiNK It locations; no coordinates supplied. Timing: No permanent cutoff is stated.",
+      "steps": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place.",
+      "where": "100 WAiNK It locations; no coordinates supplied.",
+      "timing": "No permanent cutoff is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "One Last Thing",
+      "description": "Complete 50 Challenges.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them. Where: Challenges; individual objectives and locations unspecified. Timing: No cutoff or required challenge selection is supplied.",
+      "steps": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them.",
+      "where": "Challenges; individual objectives and locations unspecified.",
+      "timing": "No cutoff or required challenge selection is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Hot Together",
+      "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "missable",
+      "missable": true,
+      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "roadmap": "Watch before advancing",
+      "guide": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape. Where: Any situation meeting the partner and four-star conditions. Timing: Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
+      "steps": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape.",
+      "where": "Any situation meeting the partner and four-star conditions.",
+      "timing": "Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Retail Therapy",
+      "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "missable",
+      "missable": true,
+      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "roadmap": "Watch before advancing",
+      "guide": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken. Where: Three shops; their locations are not supplied. Timing: Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
+      "steps": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken.",
+      "where": "Three shops; their locations are not supplied.",
+      "timing": "Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Whip It Good",
+      "description": "Discover 100 vehicles.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "collectibles",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Collectibles & exploration",
+      "guide": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied. Where: Vehicles encountered during exploration. Timing: No cutoff or required vehicle list is supplied.",
+      "steps": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied.",
+      "where": "Vehicles encountered during exploration.",
+      "timing": "No cutoff or required vehicle list is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Gunslinger",
+      "description": "Take down 5 enemies in a single use of Combat Focus.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "missable",
+      "missable": true,
+      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "roadmap": "Watch before advancing",
+      "guide": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description. Where: A combat encounter with enough enemies; no encounter is specified. Timing: Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
+      "steps": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description.",
+      "where": "A combat encounter with enough enemies; no encounter is specified.",
+      "timing": "Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Catch Me If You Can",
+      "description": "Make an unscheduled departure at VCIA.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source. Where: VCIA, as named in the description. Timing: Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
+      "steps": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source.",
+      "where": "VCIA, as named in the description.",
+      "timing": "Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Challenging Tank",
+      "description": "Kinda hot in these Rhinos.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred. Where: Not established by the supplied description. Timing: Timing and missability are unknown. Do not spend resources on an assumed solution.",
+      "steps": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred.",
+      "where": "Not established by the supplied description.",
+      "timing": "Timing and missability are unknown. Do not spend resources on an assumed solution.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Sneakthief",
+      "description": "Rob a jewelry store without being detected.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "missable",
+      "missable": true,
+      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "roadmap": "Watch before advancing",
+      "guide": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient. Where: A jewelry store; no specific store is named. Timing: Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
+      "steps": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient.",
+      "where": "A jewelry store; no specific store is named.",
+      "timing": "Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Maximum Withdrawal",
+      "description": "Rob 5 Bank Vaults and escape.",
+      "grade": "silver",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement. Where: Bank vaults; specific banks are not supplied. Timing: No story cutoff is stated. Whether repeat vaults qualify is not established.",
+      "steps": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement.",
+      "where": "Bank vaults; specific banks are not supplied.",
+      "timing": "No story cutoff is stated. Whether repeat vaults qualify is not established.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "A Classic Blitz Play",
+      "description": "Rob an Armored Truck and escape.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents. Where: An Armored Truck encounter; no route is supplied. Timing: No deadline or specific truck is identified.",
+      "steps": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents.",
+      "where": "An Armored Truck encounter; no route is supplied.",
+      "timing": "No deadline or specific truck is identified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "The Goodtime State",
+      "description": "Explore all of Leonida.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "collectibles",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Collectibles & exploration",
+      "guide": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method. Where: The state of Leonida. Timing: No cutoff is stated; the exact exploration threshold is unspecified.",
+      "steps": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method.",
+      "where": "The state of Leonida.",
+      "timing": "No cutoff is stated; the exact exploration threshold is unspecified.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Pest Control",
+      "description": "Rob an Illegal Operation belonging to each gang.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count. Where: Illegal Operations belonging to each gang. Timing: No cutoff, order or specific operation is supplied.",
+      "steps": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count.",
+      "where": "Illegal Operations belonging to each gang.",
+      "timing": "No cutoff, order or specific operation is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "In The Beginning…",
+      "description": "Enjoy a cocktail with a view on Ocean Beach.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day. Where: Ocean Beach. Timing: No timing window or missable condition is stated.",
+      "steps": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day.",
+      "where": "Ocean Beach.",
+      "timing": "No timing window or missable condition is stated.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Capital Offense",
+      "description": "Smash your way out of a vehicle showroom in classic style.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source. Where: A vehicle showroom; no particular one is supplied. Timing: No confirmed timing window or permanent missability is provided.",
+      "steps": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source.",
+      "where": "A vehicle showroom; no particular one is supplied.",
+      "timing": "No confirmed timing window or permanent missability is provided.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Let’s Go Bowling",
+      "description": "Follow-through at the Kolt & Associates' bowling alley.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified. Where: Kolt & Associates' bowling alley. Timing: No score, time window or permanent missability is established.",
+      "steps": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified.",
+      "where": "Kolt & Associates' bowling alley.",
+      "timing": "No score, time window or permanent missability is established.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Personal Best",
+      "description": "A partnership with mass appeal.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
+      "steps": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough.",
+      "where": "Not established by the supplied description.",
+      "timing": "Timing and missability are unknown.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Actions Speak Louder",
+      "description": "Choices made (for better or worse).",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "missable",
+      "missable": true,
+      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "roadmap": "Watch before advancing",
+      "guide": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified. Where: Choice-related play; no mission or venue is identified. Timing: Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
+      "steps": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified.",
+      "where": "Choice-related play; no mission or venue is identified.",
+      "timing": "Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Bad Luck, I Guess",
+      "description": "Second time's the charm.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated. Where: Not established by the supplied description. Timing: Timing, retry rules and missability are unknown.",
+      "steps": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated.",
+      "where": "Not established by the supplied description.",
+      "timing": "Timing, retry rules and missability are unknown.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "The Truth Is Out There",
+      "description": "What the hell just happened?",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
+      "steps": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more.",
+      "where": "Not established by the supplied description.",
+      "timing": "Timing and missability are unknown.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ten Pin",
+      "description": "Bowl 'em over with a melee drive-by.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title. Where: A melee drive-by opportunity; no location is specified. Timing: No story cutoff is stated. Exact controls and trigger are not documented here.",
+      "steps": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title.",
+      "where": "A melee drive-by opportunity; no location is specified.",
+      "timing": "No story cutoff is stated. Exact controls and trigger are not documented here.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dime on the Dollar",
+      "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total. Where: Contacts that launder Marked Bills; none are named. Timing: No deadline or per-contact requirement is supplied.",
+      "steps": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total.",
+      "where": "Contacts that launder Marked Bills; none are named.",
+      "timing": "No deadline or per-contact requirement is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Treat Yo Self",
+      "description": "Spend $100,000 across all shops.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense. Where: Shops across the game; no particular shop is required by the description. Timing: No deadline or required purchase list is supplied.",
+      "steps": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense.",
+      "where": "Shops across the game; no particular shop is required by the description.",
+      "timing": "No deadline or required purchase list is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Little Boxes",
+      "description": "Purchase all garage properties.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count. Where: Garage properties; addresses and prices unspecified. Timing: No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
+      "steps": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count.",
+      "where": "Garage properties; addresses and prices unspecified.",
+      "timing": "No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "On the Spot",
+      "description": "Register 10 vehicles to the Scooter Bros app.",
+      "grade": "bronze",
+      "hidden": null,
+      "kind": "activities",
+      "missable": false,
+      "missableStatus": "not established by description",
+      "roadmap": "Activities & cleanup",
+      "guide": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy. Where: The in-game Scooter Bros app. Timing: No cutoff or eligible vehicle list is supplied.",
+      "steps": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy.",
+      "where": "The in-game Scooter Bros app.",
+      "timing": "No cutoff or eligible vehicle list is supplied.",
+      "sources": [
+        {
+          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+        }
+      ]
+    }
+  ]
 }

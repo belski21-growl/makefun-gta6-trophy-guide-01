@@ -1,5 +1,30 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
+  {
+    "file": "1-cover.png",
+    "description": "Trophy checklist with guide open, progress summary, and filters visible.",
+    "path": "/#view=tracker&trophy=30",
+    "description": "Trophy checklist with an individual guide open, progress summary, and trophy filters visible.",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "2-roadmap.png",
+    "description": "Platinum roadmap with the missable filter selected.",
+    "path": "/#view=roadmap&kind=missable",
+    "description": "Platinum roadmap filtered to missable trophies.",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "3-spoiler.png",
+    "description": "Story trophy list and detail hidden by spoiler protection.",
+    "path": "/#view=tracker&kind=story&trophy=2",
+    "description": "Story trophy filter with story spoilers hidden.",
+    "viewport": { "width": 1280, "height": 800 }
+  },
+  {
+    "file": "4-guide.png",
+    "description": "Missable trophy guide with source notes and export/import controls visible.",
+    "path": "/#view=tracker&kind=missable&trophy=34",
+    "description": "Missable trophy guide detail with source notes and progress export/import controls visible.",
+    "viewport": { "width": 1280, "height": 800 }
+  }
 ]
