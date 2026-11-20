@@ -1,9 +1,8 @@
 [
   {
     "file": "1-cover.png",
-    "description": "Trophy checklist with guide open, progress summary, and filters visible.",
+    "description": "Trophy tracker with guide #30 open, progress summary, and filters visible.",
     "path": "/#view=tracker&trophy=30",
-    "description": "Trophy checklist with an individual guide open, progress summary, and trophy filters visible.",
     "viewport": { "width": 1280, "height": 800 }
   },
   {
@@ -22,9 +21,8 @@
   },
   {
     "file": "4-guide.png",
-    "description": "Missable trophy guide with source notes and export/import controls visible.",
-    "path": "/#view=tracker&kind=missable&trophy=34",
-    "description": "Missable trophy guide detail with source notes and progress export/import controls visible.",
+    "description": "Missable meditation guide #28 with its 18-action counter and source notes.",
+    "path": "/#view=tracker&kind=missable&trophy=28",
     "viewport": { "width": 1280, "height": 800 }
   }
 ]

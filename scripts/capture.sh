@@ -13,7 +13,7 @@ for attempt in {1..30}; do
 done
 mkdir -p screenshots
 names=(1-cover 2-roadmap 3-spoiler 4-guide)
-views=('view=tracker&trophy=30' 'view=roadmap&kind=missable' 'view=tracker&kind=story&trophy=2' 'view=tracker&kind=missable&trophy=34')
+views=('view=tracker&trophy=30' 'view=roadmap&kind=missable' 'view=tracker&kind=story&trophy=2' 'view=tracker&kind=missable&trophy=28')
 for index in 0 1 2 3; do
   "$browser" --headless --no-sandbox --disable-dev-shm-usage \
     --screenshot="screenshots/${names[$index]}.png" --window-size=1280,800 \

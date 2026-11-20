@@ -1,7 +1,17 @@
 {
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
-  "provenance": "Official text retained from the supplied competition snapshot. That snapshot provides no hidden flags; null means unavailable, not false. No online objective is explicitly stated. Missable flags are precautionary, not verified lockouts.",
+  "provenance": "Official fields from the supplied 18 Nov 2026 competition snapshot. Hidden flags were not supplied; null means unavailable in that snapshot. External sources were read 20 Nov 2026 from the coordinator's live HTTP 200 fetches saved that day; this session verified the saved HTML, not a direct network fetch. Source notes identify the facts checked; a live citation does not establish every walkthrough detail.",
+  "psnPoints": {
+    "status": "Reference scale supplied in the brief; GTA VI point values were not independently verified.",
+    "perGrade": {
+      "platinum": 180,
+      "gold": 90,
+      "silver": 30,
+      "bronze": 15
+    },
+    "formula": "180 × platinum + 90 × gold + 30 × silver + 15 × bronze"
+  },
   "trophies": [
     {
       "id": 1,
@@ -11,7 +21,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Platinum audit",
       "guide": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account. Where: Across the full trophy list. Timing: The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
       "steps": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account.",
@@ -19,11 +29,26 @@
       "timing": "The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and platinum grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and platinum grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Completion",
+      "counter": null
     },
     {
       "id": 2,
@@ -33,7 +58,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears. Where: Mission: Gone Fishing. Its starting point is not supplied. Timing: The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
       "steps": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears.",
@@ -41,11 +66,26 @@
       "timing": "The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 3,
@@ -55,7 +95,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2. Where: Story: Chapter 1. Timing: No optional objective or missable condition is stated.",
       "steps": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2.",
@@ -63,11 +103,26 @@
       "timing": "No optional objective or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 4,
@@ -77,7 +132,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough. Where: Story: Chapter 2. Timing: No optional objective or missable condition is stated.",
       "steps": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough.",
@@ -85,11 +140,26 @@
       "timing": "No optional objective or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 5,
@@ -99,7 +169,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself. Where: Story: Chapter 3. Timing: No optional objective or missable condition is stated.",
       "steps": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself.",
@@ -107,11 +177,26 @@
       "timing": "No optional objective or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 6,
@@ -121,7 +206,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter. Where: Story: Chapter 4. Timing: No optional objective or missable condition is stated.",
       "steps": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter.",
@@ -129,11 +214,26 @@
       "timing": "No optional objective or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 7,
@@ -143,7 +243,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned. Where: The final story mission; its name is not supplied. Timing: Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
       "steps": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned.",
@@ -151,11 +251,26 @@
       "timing": "Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 8,
@@ -165,7 +280,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list. Where: Mission: Breakfast Run. Timing: No special choice or failure window is stated.",
       "steps": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list.",
@@ -173,11 +288,26 @@
       "timing": "No special choice or failure window is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 9,
@@ -187,7 +317,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required. Where: Mission: The Cartel Heist. Timing: No approach-dependent or missable condition is stated.",
       "steps": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required.",
@@ -195,11 +325,26 @@
       "timing": "No approach-dependent or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 10,
@@ -209,7 +354,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver. Where: Mission: Child's Play. Timing: No optional objective or failure window is stated.",
       "steps": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver.",
@@ -217,11 +362,26 @@
       "timing": "No optional objective or failure window is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 11,
@@ -231,7 +391,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives. Where: Mission: Headliners. Timing: No medal, approach or missable condition is stated.",
       "steps": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives.",
@@ -239,11 +399,26 @@
       "timing": "No medal, approach or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 12,
@@ -253,7 +428,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock. Where: Mission: VCIA Takedown. Timing: No special approach or failure window is stated.",
       "steps": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock.",
@@ -261,11 +436,26 @@
       "timing": "No special approach or failure window is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 13,
@@ -275,7 +465,7 @@
       "hidden": null,
       "kind": "story",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Story completion milestone; no separate cutoff documented.",
       "roadmap": "Story milestones",
       "guide": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone. Where: Mission: Operation Savage Glory. Timing: No optional objective or missable condition is stated.",
       "steps": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone.",
@@ -283,11 +473,26 @@
       "timing": "No optional objective or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Story",
+      "counter": null
     },
     {
       "id": 14,
@@ -297,7 +502,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Platinum audit",
       "guide": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided. Where: The game-wide completion record. Timing: Requirements and post-story availability are not detailed in the description; retain a separate story save.",
       "steps": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided.",
@@ -305,11 +510,26 @@
       "timing": "Requirements and post-story availability are not detailed in the description; retain a separate story save.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Completion",
+      "counter": null
     },
     {
       "id": 15,
@@ -319,7 +539,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations. Where: Stunt opportunities; no locations are supplied. Timing: No story cutoff is stated. Repetition rules are not documented.",
       "steps": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations.",
@@ -327,11 +547,30 @@
       "timing": "No story cutoff is stated. Repetition rules are not documented.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stunts and races",
+      "counter": {
+        "target": 250,
+        "unit": "stunts",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 16,
@@ -341,7 +580,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins. Where: Activity venues found during play. Timing: No cutoff is stated; the complete activity catalogue is not supplied.",
       "steps": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins.",
@@ -349,11 +588,26 @@
       "timing": "No cutoff is stated; the complete activity catalogue is not supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": null
     },
     {
       "id": 17,
@@ -363,19 +617,38 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
-      "guide": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result. Where: Shooting Range challenges. No venue coordinates are supplied. Timing: No cutoff is stated. The description does not specify a challenge count.",
+      "guide": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result. Where: Shooting Range challenges. No venue coordinates are supplied. Timing: The kit guide lists 42 shooting range gold medals. No story cutoff is documented. [S1]",
       "steps": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result.",
       "where": "Shooting Range challenges. No venue coordinates are supplied.",
-      "timing": "No cutoff is stated. The description does not specify a challenge count.",
+      "timing": "The kit guide lists 42 shooting range gold medals. No story cutoff is documented. [S1]",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": {
+        "target": 42,
+        "unit": "shooting range gold medals",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 18,
@@ -385,19 +658,38 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
-      "guide": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one. Where: Every Top Fun Drone Race location. Timing: The description supplies neither a location list nor a count; no cutoff is stated.",
+      "guide": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one. Where: Every Top Fun Drone Race location. Timing: The kit guide lists 14 Top Fun locations won. No story cutoff is documented. [S1]",
       "steps": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one.",
       "where": "Every Top Fun Drone Race location.",
-      "timing": "The description supplies neither a location list nor a count; no cutoff is stated.",
+      "timing": "The kit guide lists 14 Top Fun locations won. No story cutoff is documented. [S1]",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stunts and races",
+      "counter": {
+        "target": 14,
+        "unit": "Top Fun locations won",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 19,
@@ -407,7 +699,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement. Where: Race events; specific routes are not supplied. Timing: No cutoff or vehicle class restriction is stated.",
       "steps": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement.",
@@ -415,11 +707,26 @@
       "timing": "No cutoff or vehicle class restriction is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stunts and races",
+      "counter": null
     },
     {
       "id": 20,
@@ -429,7 +736,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition. Where: Cal's fishing challenge; its meeting point is not supplied. Timing: Availability windows and winning score are not documented.",
       "steps": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition.",
@@ -437,11 +744,26 @@
       "timing": "Availability windows and winning score are not documented.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": null
     },
     {
       "id": 21,
@@ -451,7 +773,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm. Where: An arcade game; no arcade location is supplied. Timing: Which games qualify and their completion rules are not documented.",
       "steps": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm.",
@@ -459,11 +781,26 @@
       "timing": "Which games qualify and their completion rules are not documented.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": null
     },
     {
       "id": 22,
@@ -473,7 +810,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one. Where: Andy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
       "steps": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one.",
@@ -481,11 +818,26 @@
       "timing": "The description states no cutoff. Availability after the story is unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 23,
@@ -495,7 +847,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton. Where: Kenton's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
       "steps": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton.",
@@ -503,11 +855,26 @@
       "timing": "The description states no cutoff. Availability after the story is unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 24,
@@ -517,7 +884,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked. Where: Billy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
       "steps": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked.",
@@ -525,11 +892,26 @@
       "timing": "The description states no cutoff. Availability after the story is unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 25,
@@ -539,7 +921,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set. Where: Stranger mission strands throughout Leonida. Timing: No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
       "steps": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set.",
@@ -547,11 +929,30 @@
       "timing": "No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": {
+        "target": 8,
+        "unit": "strands",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 26,
@@ -561,7 +962,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished. Where: Randy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
       "steps": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished.",
@@ -569,11 +970,26 @@
       "timing": "The description states no cutoff. Availability after the story is unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 27,
@@ -583,7 +999,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement. Where: Tyrone's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
       "steps": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement.",
@@ -591,11 +1007,26 @@
       "timing": "The description states no cutoff. Availability after the story is unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 28,
@@ -604,20 +1035,51 @@
       "grade": "bronze",
       "hidden": null,
       "kind": "collectibles",
-      "missable": false,
-      "missableStatus": "not established by description",
-      "roadmap": "Collectibles & exploration",
-      "guide": "Keep a checklist of meditation spots discovered in Leonida and meditate at each. Visiting a spot without performing the activity does not establish completion. Where: Meditation spots across Leonida. Timing: No count, coordinates or cutoff is supplied.",
-      "steps": "Keep a checklist of meditation spots discovered in Leonida and meditate at each. Visiting a spot without performing the activity does not establish completion.",
-      "where": "Meditation spots across Leonida.",
-      "timing": "No count, coordinates or cutoff is supplied.",
+      "missable": true,
+      "missableStatus": "Possibly missable: the balcony window is known; its necessity for the trophy is unconfirmed.",
+      "roadmap": "Chapter 1 balcony first; finish remaining spots during exploration",
+      "guide": "POSSIBLY MISSABLE: Do the balcony meditation before Chapter 1 ends. The spot guide labels this session missable; the trophy roadmap and GTABase say the trophy itself is only possibly missable because the balcony requirement is unconfirmed. [S2][S3][S4]\n1. In Chapter 1 after Down to Earth, accept Lucia’s balcony meditation at Jason’s house. [S3]\n2. Keep a separate Chapter 1 save until the trophy unlocks. [S2][S3]\n3. Track 18 meditation actions across 10 spots under Progress > Collections > Exploration > Meditations. [S3]\n4. Visit Ascent on Mount Kalaga after the other 17 meditations; the final spot appears then. [S3]",
+      "steps": "1. In Chapter 1 after Down to Earth, accept Lucia’s balcony meditation at Jason’s house. [S3]\n2. Keep a separate Chapter 1 save until the trophy unlocks. [S2][S3]\n3. Track 18 meditation actions across 10 spots under Progress > Collections > Exploration > Meditations. [S3]\n4. Visit Ascent on Mount Kalaga after the other 17 meditations; the final spot appears then. [S3]",
+      "where": "Jason’s house balcony first; remaining spots across Leonida, ending at Ascent on Mount Kalaga. [S3]",
+      "timing": "POSSIBLY MISSABLE: Do the balcony meditation before Chapter 1 ends. The spot guide labels this session missable; the trophy roadmap and GTABase say the trophy itself is only possibly missable because the balcony requirement is unconfirmed. [S2][S3][S4]",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. Flags the Chapter 1 balcony meditation as possibly required.",
+          "verification": "live"
+        },
+        {
+          "name": "[S3] PowerPyx Meditation Spot Locations",
+          "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. 18 meditation actions across 10 spots; balcony cutoff and final Ascent unlock.",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. Lists Positive Mental Attitude as possibly missable.",
+          "verification": "live"
+        },
+        {
+          "name": "[S5] GmTreks Meditation Guide",
+          "url": "https://gmtreks.com/gta6/page/01M7QVDV9V6SV9W03RH60W1P4B",
+          "note": "Corroborates 18 meditations across 10 locations, the Chapter 1 balcony cutoff and Ascent after the other spots. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200); the trophy requirement remains unconfirmed in PowerPyx.",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Collectibles and exploration",
+      "counter": {
+        "target": 18,
+        "unit": "meditations",
+        "sourceRef": "S3"
+      }
     },
     {
       "id": 29,
@@ -627,7 +1089,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title. Where: Bret's hunting objective; target and region unspecified. Timing: No deadline or repeatability information is supplied.",
       "steps": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title.",
@@ -635,11 +1097,26 @@
       "timing": "No deadline or repeatability information is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Stranger strands",
+      "counter": null
     },
     {
       "id": 30,
@@ -649,7 +1126,7 @@
       "hidden": null,
       "kind": "collectibles",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Collectibles & exploration",
       "guide": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards. Where: Collectible Card sets; individual card locations unspecified. Timing: No missable card or story cutoff is identified in the description.",
       "steps": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards.",
@@ -657,11 +1134,30 @@
       "timing": "No missable card or story cutoff is identified in the description.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Collectibles and exploration",
+      "counter": {
+        "target": 3,
+        "unit": "card sets",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 31,
@@ -671,7 +1167,7 @@
       "hidden": null,
       "kind": "collectibles",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Collectibles & exploration",
       "guide": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place. Where: 100 WAiNK It locations; no coordinates supplied. Timing: No permanent cutoff is stated.",
       "steps": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place.",
@@ -679,11 +1175,26 @@
       "timing": "No permanent cutoff is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Collectibles and exploration",
+      "counter": null
     },
     {
       "id": 32,
@@ -693,7 +1204,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them. Where: Challenges; individual objectives and locations unspecified. Timing: No cutoff or required challenge selection is supplied.",
       "steps": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them.",
@@ -701,11 +1212,30 @@
       "timing": "No cutoff or required challenge selection is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": {
+        "target": 50,
+        "unit": "challenges",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 33,
@@ -715,7 +1245,7 @@
       "hidden": null,
       "kind": "missable",
       "missable": true,
-      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
       "roadmap": "Watch before advancing",
       "guide": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape. Where: Any situation meeting the partner and four-star conditions. Timing: Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
       "steps": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape.",
@@ -723,11 +1253,26 @@
       "timing": "Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 34,
@@ -737,7 +1282,7 @@
       "hidden": null,
       "kind": "missable",
       "missable": true,
-      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
       "roadmap": "Watch before advancing",
       "guide": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken. Where: Three shops; their locations are not supplied. Timing: Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
       "steps": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken.",
@@ -745,11 +1290,26 @@
       "timing": "Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 35,
@@ -759,7 +1319,7 @@
       "hidden": null,
       "kind": "collectibles",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Collectibles & exploration",
       "guide": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied. Where: Vehicles encountered during exploration. Timing: No cutoff or required vehicle list is supplied.",
       "steps": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied.",
@@ -767,11 +1327,30 @@
       "timing": "No cutoff or required vehicle list is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Collectibles and exploration",
+      "counter": {
+        "target": 100,
+        "unit": "vehicles",
+        "sourceRef": "S1"
+      }
     },
     {
       "id": 36,
@@ -781,7 +1360,7 @@
       "hidden": null,
       "kind": "missable",
       "missable": true,
-      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
       "roadmap": "Watch before advancing",
       "guide": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description. Where: A combat encounter with enough enemies; no encounter is specified. Timing: Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
       "steps": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description.",
@@ -789,11 +1368,26 @@
       "timing": "Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 37,
@@ -803,7 +1397,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source. Where: VCIA, as named in the description. Timing: Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
       "steps": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source.",
@@ -811,11 +1405,26 @@
       "timing": "Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 38,
@@ -825,7 +1434,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred. Where: Not established by the supplied description. Timing: Timing and missability are unknown. Do not spend resources on an assumed solution.",
       "steps": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred.",
@@ -833,11 +1442,26 @@
       "timing": "Timing and missability are unknown. Do not spend resources on an assumed solution.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 39,
@@ -847,7 +1471,7 @@
       "hidden": null,
       "kind": "missable",
       "missable": true,
-      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
       "roadmap": "Watch before advancing",
       "guide": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient. Where: A jewelry store; no specific store is named. Timing: Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
       "steps": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient.",
@@ -855,11 +1479,26 @@
       "timing": "Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 40,
@@ -869,7 +1508,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement. Where: Bank vaults; specific banks are not supplied. Timing: No story cutoff is stated. Whether repeat vaults qualify is not established.",
       "steps": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement.",
@@ -877,11 +1516,26 @@
       "timing": "No story cutoff is stated. Whether repeat vaults qualify is not established.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 41,
@@ -891,7 +1545,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents. Where: An Armored Truck encounter; no route is supplied. Timing: No deadline or specific truck is identified.",
       "steps": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents.",
@@ -899,11 +1553,26 @@
       "timing": "No deadline or specific truck is identified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 42,
@@ -913,7 +1582,7 @@
       "hidden": null,
       "kind": "collectibles",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Collectibles & exploration",
       "guide": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method. Where: The state of Leonida. Timing: No cutoff is stated; the exact exploration threshold is unspecified.",
       "steps": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method.",
@@ -921,11 +1590,26 @@
       "timing": "No cutoff is stated; the exact exploration threshold is unspecified.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Collectibles and exploration",
+      "counter": null
     },
     {
       "id": 43,
@@ -935,7 +1619,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count. Where: Illegal Operations belonging to each gang. Timing: No cutoff, order or specific operation is supplied.",
       "steps": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count.",
@@ -943,11 +1627,26 @@
       "timing": "No cutoff, order or specific operation is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 44,
@@ -957,7 +1656,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day. Where: Ocean Beach. Timing: No timing window or missable condition is stated.",
       "steps": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day.",
@@ -965,11 +1664,26 @@
       "timing": "No timing window or missable condition is stated.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "World encounters",
+      "counter": null
     },
     {
       "id": 45,
@@ -979,7 +1693,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source. Where: A vehicle showroom; no particular one is supplied. Timing: No confirmed timing window or permanent missability is provided.",
       "steps": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source.",
@@ -987,11 +1701,26 @@
       "timing": "No confirmed timing window or permanent missability is provided.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 46,
@@ -1001,7 +1730,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified. Where: Kolt & Associates' bowling alley. Timing: No score, time window or permanent missability is established.",
       "steps": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified.",
@@ -1009,11 +1738,26 @@
       "timing": "No score, time window or permanent missability is established.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Minigames and challenges",
+      "counter": null
     },
     {
       "id": 47,
@@ -1023,7 +1767,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
       "steps": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough.",
@@ -1031,11 +1775,26 @@
       "timing": "Timing and missability are unknown.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "World encounters",
+      "counter": null
     },
     {
       "id": 48,
@@ -1045,7 +1804,7 @@
       "hidden": null,
       "kind": "missable",
       "missable": true,
-      "missableStatus": "precaution, not a confirmed permanent lockout",
+      "missableStatus": "Unknown trigger; keep a save before consequential choices.",
       "roadmap": "Watch before advancing",
       "guide": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified. Where: Choice-related play; no mission or venue is identified. Timing: Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
       "steps": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified.",
@@ -1053,11 +1812,26 @@
       "timing": "Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "World encounters",
+      "counter": null
     },
     {
       "id": 49,
@@ -1067,7 +1841,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated. Where: Not established by the supplied description. Timing: Timing, retry rules and missability are unknown.",
       "steps": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated.",
@@ -1075,11 +1849,26 @@
       "timing": "Timing, retry rules and missability are unknown.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy entry confirms the objective and bronze grade; the guide explicitly says the unlock method is unknown. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "World encounters",
+      "counter": null
     },
     {
       "id": 50,
@@ -1089,7 +1878,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "Unlock details and missability unresolved.",
       "roadmap": "Activities & cleanup",
       "guide": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
       "steps": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more.",
@@ -1097,11 +1886,26 @@
       "timing": "Timing and missability are unknown.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "World encounters",
+      "counter": null
     },
     {
       "id": 51,
@@ -1111,7 +1915,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title. Where: A melee drive-by opportunity; no location is specified. Timing: No story cutoff is stated. Exact controls and trigger are not documented here.",
       "steps": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title.",
@@ -1119,11 +1923,26 @@
       "timing": "No story cutoff is stated. Exact controls and trigger are not documented here.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Crime and combat",
+      "counter": null
     },
     {
       "id": 52,
@@ -1133,7 +1952,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total. Where: Contacts that launder Marked Bills; none are named. Timing: No deadline or per-contact requirement is supplied.",
       "steps": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total.",
@@ -1141,11 +1960,26 @@
       "timing": "No deadline or per-contact requirement is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Economy and property",
+      "counter": null
     },
     {
       "id": 53,
@@ -1155,7 +1989,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense. Where: Shops across the game; no particular shop is required by the description. Timing: No deadline or required purchase list is supplied.",
       "steps": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense.",
@@ -1163,11 +1997,26 @@
       "timing": "No deadline or required purchase list is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Economy and property",
+      "counter": null
     },
     {
       "id": 54,
@@ -1177,7 +2026,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count. Where: Garage properties; addresses and prices unspecified. Timing: No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
       "steps": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count.",
@@ -1185,11 +2034,26 @@
       "timing": "No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Economy and property",
+      "counter": null
     },
     {
       "id": 55,
@@ -1199,7 +2063,7 @@
       "hidden": null,
       "kind": "activities",
       "missable": false,
-      "missableStatus": "not established by description",
+      "missableStatus": "No cutoff documented; repeatability not verified.",
       "roadmap": "Activities & cleanup",
       "guide": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy. Where: The in-game Scooter Bros app. Timing: No cutoff or eligible vehicle list is supplied.",
       "steps": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy.",
@@ -1207,11 +2071,65 @@
       "timing": "No cutoff or eligible vehicle list is supplied.",
       "sources": [
         {
-          "name": "Kit official PlayStation trophy descriptions (supplied snapshot)",
+          "name": "[S1] Competition kit trophy snapshot",
           "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
-          "note": "Exophase cross-check blocked in build environment. Guidance uses only the supplied description; no external walkthrough verified."
+          "note": "Supplied snapshot dated 18 Nov 2026. URL is the existing snapshot reference; no live read is claimed.",
+          "verification": "snapshot"
+        },
+        {
+          "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
+        },
+        {
+          "name": "[S4] GTABase Trophy List",
+          "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "verification": "live"
         }
-      ]
+      ],
+      "group": "Economy and property",
+      "counter": null
     }
-  ]
+  ],
+  "roadmapEvidence": {
+    "sourceRefs": [
+      "S2",
+      "S4"
+    ],
+    "sources": [
+      {
+        "name": "[S2] PowerPyx Trophy Guide & Roadmap",
+        "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "note": "Coordinator probe: read 20 Nov 2026. Difficulty 4/10, about 200 hours, five chapters, no mission replay, post-story free roam.",
+        "verification": "coordinator-probe"
+      },
+      {
+        "name": "[S4] GTABase Trophy List",
+        "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
+        "note": "Coordinator probe: read 20 Nov 2026. About 200 hours, one playthrough, no online trophies, no mission replay; cheats disable trophies and saving.",
+        "verification": "coordinator-probe"
+      }
+    ],
+    "difficulty": "4/10",
+    "estimatedHours": 200,
+    "chapters": 5,
+    "missionReplay": false,
+    "postStoryFreeRoam": true,
+    "stages": [
+      {
+        "label": "Story and Chapter 1 balcony",
+        "estimate": "60–80 h"
+      },
+      {
+        "label": "Completion and side activities",
+        "estimate": "~100 h"
+      },
+      {
+        "label": "Remaining trophy cleanup",
+        "estimate": "~10 h"
+      }
+    ]
+  }
 }
