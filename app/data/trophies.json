@@ -1,16 +1,16 @@
 {
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
-  "provenance": "Official fields from the supplied 18 Nov 2026 competition snapshot. Hidden flags were not supplied; null means unavailable in that snapshot. External sources were read 20 Nov 2026 from the coordinator's live HTTP 200 fetches saved that day; this session verified the saved HTML, not a direct network fetch. Source notes identify the facts checked; a live citation does not establish every walkthrough detail.",
+  "provenance": "Official names, descriptions and grades come from the competition snapshot dated 18 Nov 2026. It does not supply hidden flags; null means unavailable. Live citations use extracts from coordinator-fetched HTML copies (HTTP 200) read 21 Nov 2026 and cover only the evidence checked, not complete walkthroughs. [S7] Push Square, [S8] GameMapa and [S9] eGamers were checked against the 55-entry name and grade list where each excerpt exposes the fields; the snapshot supplies every official grade.",
   "psnPoints": {
-    "status": "Reference scale supplied in the brief; GTA VI point values were not independently verified.",
     "perGrade": {
       "platinum": 180,
       "gold": 90,
       "silver": 30,
       "bronze": 15
     },
-    "formula": "180 × platinum + 90 × gold + 30 × silver + 15 × bronze"
+    "formula": "180 × platinum + 90 × gold + 30 × silver + 15 × bronze",
+    "status": "Reference scale supplied in the brief; GTA VI point values were not independently verified."
   },
   "trophies": [
     {
@@ -22,11 +22,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Platinum audit",
-      "guide": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account. Where: Across the full trophy list. Timing: The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
-      "steps": "Finish the full checklist, then verify that the platinum has unlocked on the console. Use this tracker to find unfinished categories; it does not read your PlayStation account.",
-      "where": "Across the full trophy list.",
-      "timing": "The supplied list associates the platinum with the remaining trophies; no alternate unlock route is documented.",
+      "roadmap": "Final trophy sweep",
+      "guide": "Earn the other 54 single-player trophies to claim the platinum [S2][S4].",
+      "steps": "1. Finish the story and the remaining trophy routes.\n2. Check the PS5 list for anything still locked.",
+      "where": "PS5 trophy list",
+      "timing": "After every other trophy",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -37,13 +37,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and platinum grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes the platinum as the reward for the rest of the single-player set; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and platinum grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the PS5 award after every other trophy; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Vice Got a Price! gives this objective: Congratulations! You're a Leonida Legend; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -59,11 +65,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears. Where: Mission: Gone Fishing. Its starting point is not supplied. Timing: The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
-      "steps": "Progress through Gone Fishing and finish its objectives. Mark this only after the trophy notification, rather than when the mission first appears.",
-      "where": "Mission: Gone Fishing. Its starting point is not supplied.",
-      "timing": "The description gives no failure window. Keep a separate save before advancing the story as a precaution.",
+      "roadmap": "Opening mission",
+      "guide": "The opening fishing mission triggers this story award [S2][S4].",
+      "steps": "1. Finish Gone Fishing.",
+      "where": "Chapter 1 main path",
+      "timing": "Opening chapter",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -74,13 +80,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Labels Gone Fishing an automatic Chapter 1 story award; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies Gone Fishing as an opening story mission; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Just Like Paradise gives this objective: Complete Gone Fishing; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -96,11 +108,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2. Where: Story: Chapter 1. Timing: No optional objective or missable condition is stated.",
-      "steps": "Work through Chapter 1 until its completion is registered. Use this milestone as the first chapter checkpoint before moving to Chapter 2.",
-      "where": "Story: Chapter 1.",
-      "timing": "No optional objective or missable condition is stated.",
+      "roadmap": "Chapter 2 entry",
+      "guide": "PowerPyx places the Chapter 1 award at the end of What’s in the Bag?, the first Chapter 2 mission [S2].",
+      "steps": "1. Continue into Chapter 2 and finish What’s in the Bag?.",
+      "where": "Main story",
+      "timing": "First mission of Chapter 2",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -111,13 +123,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places the award after What’s in the Bag?; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the Chapter 1 completion award; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Paradise Lost gives this objective: Complete Chapter 1; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -133,11 +151,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough. Where: Story: Chapter 2. Timing: No optional objective or missable condition is stated.",
-      "steps": "Continue the main story to the end of Chapter 2. Check for the trophy after the chapter transition; simply beginning the chapter is not enough.",
-      "where": "Story: Chapter 2.",
-      "timing": "No optional objective or missable condition is stated.",
+      "roadmap": "Vice City arrival",
+      "guide": "The Chapter 2 award arrives after Welcome to Vice City, the first Chapter 3 mission [S2].",
+      "steps": "1. Finish Welcome to Vice City.",
+      "where": "Main story",
+      "timing": "Start of Chapter 3",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -148,13 +166,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places the award after Welcome to Vice City; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the Chapter 2 completion award; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for T**s Ass Drug Money gives this objective: Complete Chapter 2; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -170,11 +194,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself. Where: Story: Chapter 3. Timing: No optional objective or missable condition is stated.",
-      "steps": "Finish the Chapter 3 story sequence. Keep chapter completion separate from side activities: the description asks for the chapter itself.",
-      "where": "Story: Chapter 3.",
-      "timing": "No optional objective or missable condition is stated.",
+      "roadmap": "Chapter 4 entry",
+      "guide": "The Chapter 3 award follows Ocean Beach and Another Life in the next chapter [S2].",
+      "steps": "1. Play through Ocean Beach and Another Life.",
+      "where": "Main story",
+      "timing": "First two main missions of Chapter 4",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -185,13 +209,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places the award after Ocean Beach and Another Life; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the Chapter 3 completion award; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Vice City, Baby! gives this objective: Complete Chapter 3; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -207,11 +237,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter. Where: Story: Chapter 4. Timing: No optional objective or missable condition is stated.",
-      "steps": "Complete Chapter 4, then check this milestone before pursuing the final mission. The source does not specify the number of missions in this chapter.",
-      "where": "Story: Chapter 4.",
-      "timing": "No optional objective or missable condition is stated.",
+      "roadmap": "Chapter 4 finale",
+      "guide": "Starting From Zero closes Chapter 4 and triggers this award [S2].",
+      "steps": "1. Finish Starting From Zero.",
+      "where": "Main story",
+      "timing": "End of Chapter 4",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -222,13 +252,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies Starting From Zero as the Chapter 4 award mission; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the Chapter 4 completion award as a story milestone; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Top Of The World, Ma gives this objective: Complete Chapter 4; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -244,11 +280,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned. Where: The final story mission; its name is not supplied. Timing: Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
-      "steps": "Finish the final mission and confirm the gold trophy. Reaching the ending is one milestone, not proof of 100% completion; leave the completion trophy unchecked until earned.",
-      "where": "The final story mission; its name is not supplied.",
-      "timing": "Ending choices and replay availability are not established by the description. Keep a separate pre-finale save.",
+      "roadmap": "Story finale",
+      "guide": "Finish the last story mission; free roam continues afterward [S4].",
+      "steps": "1. Follow the last main mission through to completion.",
+      "where": "Main story",
+      "timing": "End of the campaign",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -259,13 +295,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the finale as an automatic story award; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Confirms that free roam carries on after the final story mission; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for You Gotta Know When to Get Off gives this objective: Complete the final mission; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -281,11 +323,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list. Where: Mission: Breakfast Run. Timing: No special choice or failure window is stated.",
-      "steps": "Complete the mission named Breakfast Run. Follow its in-game objectives; a start location and chapter placement are not established in the supplied list.",
-      "where": "Mission: Breakfast Run.",
-      "timing": "No special choice or failure window is stated.",
+      "roadmap": "Breakfast Run",
+      "guide": "Breakfast Run is a Chapter 2 story mission [S2][S4].",
+      "steps": "1. Finish Breakfast Run.",
+      "where": "Chapter 2 main path",
+      "timing": "During the Chapter 2 campaign",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -296,13 +338,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Breakfast Run in Chapter 2; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Breakfast Run in Chapter 2; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Trust gives this objective: Complete Breakfast Run; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -318,11 +366,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required. Where: Mission: The Cartel Heist. Timing: No approach-dependent or missable condition is stated.",
-      "steps": "Finish The Cartel Heist. The trophy asks for mission completion, so do not assume a particular take, approach or medal is required.",
-      "where": "Mission: The Cartel Heist.",
-      "timing": "No approach-dependent or missable condition is stated.",
+      "roadmap": "Cartel Heist",
+      "guide": "The Cartel Heist is part of the Chapter 3 main path [S2][S4].",
+      "steps": "1. Finish The Cartel Heist.",
+      "where": "Chapter 3 main path",
+      "timing": "During the Chapter 3 campaign",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -333,13 +381,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places The Cartel Heist in Chapter 3; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places The Cartel Heist in Chapter 3; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Break the Bank gives this objective: Complete The Cartel Heist; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -355,11 +409,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver. Where: Mission: Child's Play. Timing: No optional objective or failure window is stated.",
-      "steps": "Finish Child's Play and wait for the completion award. The supplied description does not identify its chapter or its mission giver.",
-      "where": "Mission: Child's Play.",
-      "timing": "No optional objective or failure window is stated.",
+      "roadmap": "Child’s Play",
+      "guide": "Child’s Play is a Chapter 4 story mission [S2][S4].",
+      "steps": "1. Finish Child’s Play.",
+      "where": "Chapter 4 main path",
+      "timing": "During the Chapter 4 campaign",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -370,13 +424,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Child’s Play in Chapter 4; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Child’s Play in Chapter 4; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Family Matters gives this objective: Complete Child's Play; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -392,11 +452,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives. Where: Mission: Headliners. Timing: No medal, approach or missable condition is stated.",
-      "steps": "Complete Headliners as part of your mission progress. Use the mission name to distinguish this trophy from activity or performance objectives.",
-      "where": "Mission: Headliners.",
-      "timing": "No medal, approach or missable condition is stated.",
+      "roadmap": "Headliners",
+      "guide": "Headliners awards a story trophy in Chapter 4 [S2][S4].",
+      "steps": "1. Finish Headliners.",
+      "where": "Chapter 4 main path",
+      "timing": "When Headliners appears",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -407,13 +467,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists Headliners as an automatic story trophy; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Headliners in Chapter 4; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for DWNFALL gives this objective: Complete Headliners; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -429,11 +495,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock. Where: Mission: VCIA Takedown. Timing: No special approach or failure window is stated.",
-      "steps": "Complete VCIA Takedown. Treat this mission trophy separately from the unscheduled-departure trophy: the list does not say they share an unlock.",
-      "where": "Mission: VCIA Takedown.",
-      "timing": "No special approach or failure window is stated.",
+      "roadmap": "Airport story mission",
+      "guide": "VCIA Takedown is a Chapter 4 story milestone [S4].",
+      "steps": "1. Finish VCIA Takedown.",
+      "where": "Chapter 4 main path",
+      "timing": "During Chapter 4",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -444,13 +510,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment places this entry beside other automatic story mission awards but does not show its own trigger; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places VCIA Takedown in Chapter 4; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Hi-Jacked gives this objective: Complete VCIA Takedown; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -466,11 +538,11 @@
       "kind": "story",
       "missable": false,
       "missableStatus": "Story completion milestone; no separate cutoff documented.",
-      "roadmap": "Story milestones",
-      "guide": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone. Where: Mission: Operation Savage Glory. Timing: No optional objective or missable condition is stated.",
-      "steps": "Finish Operation Savage Glory. Check for its trophy notification before marking it, rather than inferring completion from the title alone.",
-      "where": "Mission: Operation Savage Glory.",
-      "timing": "No optional objective or missable condition is stated.",
+      "roadmap": "Savage Glory",
+      "guide": "Operation Savage Glory is a Chapter 5 story milestone [S4].",
+      "steps": "1. Finish Operation Savage Glory.",
+      "where": "Chapter 5 main path",
+      "timing": "During Chapter 5",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -481,13 +553,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment stops before the Snow Storm trigger; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Operation Savage Glory in Chapter 5; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Snow Storm gives this objective: Complete Operation Savage Glory; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -503,11 +581,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Platinum audit",
-      "guide": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided. Where: The game-wide completion record. Timing: Requirements and post-story availability are not detailed in the description; retain a separate story save.",
-      "steps": "Use the game's own completion record as the authority. Review unfinished activities and collectibles in this checklist, but do not assume every trophy contributes to 100%: the exact completion formula is not provided.",
-      "where": "The game-wide completion record.",
-      "timing": "Requirements and post-story availability are not detailed in the description; retain a separate story save.",
+      "roadmap": "Completion checklist",
+      "guide": "The roadmap separates the story from the remaining 100% checklist work; post-story free roam stays open [S2][S4].",
+      "steps": "1. Complete the campaign.\n2. Use the completion checklist to plan the remaining activities and collections.\n3. Verify that the completion percentage reaches 100%.",
+      "where": "Leonida and the completion checklist",
+      "timing": "Build progress during the story and finish in free roam",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -518,13 +596,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Calls the 100% award the hardest trophy and confirms free roam after the story; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and gold grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Separates the five-chapter story pass from the completion checklist; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for A Long Road gives this objective: Attain 100% Completion; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -540,11 +624,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations. Where: Stunt opportunities; no locations are supplied. Timing: No story cutoff is stated. Repetition rules are not documented.",
-      "steps": "Build up a record of successful stunts toward 250. Count completed stunts, not attempts, and check any in-game progress record before repeating one. The description does not require 250 distinct locations.",
-      "where": "Stunt opportunities; no locations are supplied.",
-      "timing": "No story cutoff is stated. Repetition rules are not documented.",
+      "roadmap": "Stunt circuit",
+      "guide": "Any 250 of the 397 stunt spots qualify [S4]; the optional challenges attached to the spots are separate [S2].",
+      "steps": "1. Pick a cluster of stunt markers.\n2. Complete the stunt once at each new spot.\n3. Track 250 completed spots before switching routes.",
+      "where": "Stunt map markers",
+      "timing": "As new districts open",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -555,21 +639,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Separates completing a named stunt from its optional map challenge; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists 397 stunt spots and allows any 250 for the trophy; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Cunning Stunts gives this objective: Complete 250 Stunts; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Stunts and races",
       "counter": {
+        "sourceRef": "S1",
         "target": 250,
-        "unit": "stunts",
-        "sourceRef": "S1"
+        "unit": "stunts"
       }
     },
     {
@@ -581,11 +671,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins. Where: Activity venues found during play. Timing: No cutoff is stated; the complete activity catalogue is not supplied.",
-      "steps": "Keep a note of the activity types you have tried and work through the remaining types systematically. One attempt per type is the stated condition; the description does not give a type count or require wins.",
-      "where": "Activity venues found during play.",
-      "timing": "No cutoff is stated; the complete activity catalogue is not supplied.",
+      "roadmap": "Activity sampler",
+      "guide": "The Progress menu records activity types; this award asks for one of each type, including an actual race win and a scored basket [S2][S4].",
+      "steps": "1. Open Progress > Activities.\n2. Match missing types to map markers.\n3. Recheck the menu after each new type.",
+      "where": "Activity markers across Leonida",
+      "timing": "Alongside the 100% checklist",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -596,13 +686,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes activity markers and checking how many activities you have tried; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Enumerates nine activity types and points to Progress > Activities; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Master of None gives this objective: Try each type of activity once; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -618,11 +714,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result. Where: Shooting Range challenges. No venue coordinates are supplied. Timing: The kit guide lists 42 shooting range gold medals. No story cutoff is documented. [S1]",
-      "steps": "At the Shooting Range, review the challenges one by one and improve every result below gold. Keep a medal checklist so a completed challenge is not mistaken for a gold result.",
-      "where": "Shooting Range challenges. No venue coordinates are supplied.",
-      "timing": "The kit guide lists 42 shooting range gold medals. No story cutoff is documented. [S1]",
+      "roadmap": "Range golds",
+      "guide": "All 42 gold medals across 12 ranges are required [S2][S4].",
+      "steps": "1. Visit each range.\n2. Mark its challenges as you earn gold.\n3. Return for any medal below gold.",
+      "where": "Shooting ranges across Leonida",
+      "timing": "Before combat cleanup if you also want Focus practice",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -633,21 +729,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Links the award to all 42 gold medals at 12 ranges; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists 42 golds across 12 ranges and notes the Focus benefit; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for The Shootist gives this objective: Earn a gold medal in all Shooting Range challenges; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Minigames and challenges",
       "counter": {
+        "sourceRef": "S1",
         "target": 42,
-        "unit": "shooting range gold medals",
-        "sourceRef": "S1"
+        "unit": "shooting range gold medals"
       }
     },
     {
@@ -659,11 +761,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one. Where: Every Top Fun Drone Race location. Timing: The kit guide lists 14 Top Fun locations won. No story cutoff is documented. [S1]",
-      "steps": "Record the Top Fun Drone Race locations you find and win once at each. A repeat win at the same location does not establish a win at a different one.",
-      "where": "Every Top Fun Drone Race location.",
-      "timing": "The kit guide lists 14 Top Fun locations won. No story cutoff is documented. [S1]",
+      "roadmap": "Drone race circuit",
+      "guide": "Win once at each of 14 Top Fun locations for this trophy; the 100% checklist asks for all 42 drone races [S4].",
+      "steps": "1. Mark each location after its first win.\n2. Use the location count to find gaps rather than repeating a winning venue.",
+      "where": "Top Fun race markers",
+      "timing": "As the map opens",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -674,21 +776,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists 14 Top Fun locations and 42 races in total; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Separates one win per location from the 42 races required for full completion; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Top Fun gives this objective: Win a Top Fun Drone Race at every location; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Stunts and races",
       "counter": {
+        "sourceRef": "S1",
         "target": 14,
-        "unit": "Top Fun locations won",
-        "sourceRef": "S1"
+        "unit": "Top Fun locations won"
       }
     },
     {
@@ -700,11 +808,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement. Where: Race events; specific routes are not supplied. Timing: No cutoff or vehicle class restriction is stated.",
-      "steps": "Track race identities as well as victories until you have 20 different wins. Repeating the same race is not a substitute for a new race in this requirement.",
-      "where": "Race events; specific routes are not supplied.",
-      "timing": "No cutoff or vehicle class restriction is stated.",
+      "roadmap": "Race wins",
+      "guide": "The requirement is 20 distinct winning races; another win in a completed race adds nothing [S4].",
+      "steps": "1. Pick an unwon race.\n2. Finish first.\n3. Log the race name until you have 20 unique wins.",
+      "where": "Race events across Leonida",
+      "timing": "During side activity cleanup",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -715,13 +823,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists 20 wins from 40 unique races; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Specifies 20 different race wins and excludes repeat wins; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Earn Cash, Not Kudos gives this objective: Win 20 different races; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -737,11 +851,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition. Where: Cal's fishing challenge; its meeting point is not supplied. Timing: Availability windows and winning score are not documented.",
-      "steps": "Take on Cal's fishing challenge and finish with a winning result. Merely fishing or completing a challenge attempt is not the stated condition.",
-      "where": "Cal's fishing challenge; its meeting point is not supplied.",
-      "timing": "Availability windows and winning score are not documented.",
+      "roadmap": "Cal’s challenge",
+      "guide": "Cal texts after you meet him in Feng Shui; the trophy is for winning his later fishing challenge [S4][S6].",
+      "steps": "1. Meet Cal during Feng Shui.\n2. Follow the purple fishing marker from his text and finish the lead-up quests [S4].\n3. Beat Cal in his challenge.",
+      "where": "Cal’s fishing quest line",
+      "timing": "After meeting Cal in Chapter 1 [S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -752,13 +866,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not show how to start Cal’s challenge; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places Cal’s invitation after meeting him in Feng Shui; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Baited My Tackle gives this objective: Beat Cal in a fishing challenge; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -774,11 +894,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm. Where: An arcade game; no arcade location is supplied. Timing: Which games qualify and their completion rules are not documented.",
-      "steps": "Choose an arcade game and reach its completion condition. Starting a game or leaving midway does not establish completion; use the trophy notification to confirm.",
-      "where": "An arcade game; no arcade location is supplied.",
-      "timing": "Which games qualify and their completion rules are not documented.",
+      "roadmap": "Arcade clear",
+      "guide": "Finish any one arcade game; the home TV has three choices and Bang For Your Buck is on cabinets around Leonida [S2][S4].",
+      "steps": "1. Choose a home game or a cabinet.\n2. Play through to the ending.",
+      "where": "Home TV or an arcade cabinet",
+      "timing": "The home options are available in Chapter 1 [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -789,13 +909,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies home TV games that can be played in Chapter 1; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists three home games and Bang For Your Buck on arcade cabinets; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Stick Fiddler gives this objective: Complete an arcade game; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -811,11 +937,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one. Where: Andy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
-      "steps": "Continue Andy's mission strand through its final assignment. Keep track of the giver so progress in another strand is not confused with this one.",
-      "where": "Andy's mission strand; starting location unknown.",
-      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "roadmap": "Andy’s strand",
+      "guide": "Andy contacts Lucia in Chapter 3; Puff Puff Pass closes the five-mission strand [S2][S4].",
+      "steps": "1. Switch to Lucia and follow Andy’s Belville lead.\n2. Finish the five missions through Puff Puff Pass.",
+      "where": "Belville and Andy’s mission markers",
+      "timing": "Chapter 3 onward, including post-story [S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -826,13 +952,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes Andy’s optional strand as exclusive to Lucia; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Names Puff Puff Pass as the conclusion of Lucia’s five Andy missions; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Road to Rehabilitation gives this objective: Complete the final mission for Andy; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -848,11 +980,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton. Where: Kenton's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
-      "steps": "Follow Kenton's missions until the final one is completed. The trophy is for the strand finale, not simply meeting Kenton.",
-      "where": "Kenton's mission strand; starting location unknown.",
-      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "roadmap": "Kenton’s treasure",
+      "guide": "Kenton starts in Key Lento; GTABase describes seven wrecks and a temporary gap in his availability [S4].",
+      "steps": "1. Meet Kenton at KR.\n2. Dive to the purple chest markers and recover the treasure.\n3. Answer his later message and finish the strand.",
+      "where": "Key Lento and marked wrecks",
+      "timing": "Start in Chapter 1 or follow up when Kenton contacts Jason again [S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -863,13 +995,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes recovering submerged treasure with the metal detector and waiting for Kenton to call again; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies seven wrecks and a later return message to Jason; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for This Was No Boat Accident gives this objective: Complete the final mission for Kenton; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -885,11 +1023,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked. Where: Billy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
-      "steps": "Work through Billy's mission strand and finish its last mission. Record this separately from the eight-strand objective until both trophies have actually unlocked.",
-      "where": "Billy's mission strand; starting location unknown.",
-      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "roadmap": "Billy’s strand",
+      "guide": "The trophy is tied to Billy’s final mission [S4][S6]; GTABase excludes his line from the eight-strand tally [S4].",
+      "steps": "1. Follow Billy’s mission markers.\n2. Finish his line and check this trophy separately from Strangers & Freaks.",
+      "where": "Billy’s mission markers",
+      "timing": "When Billy’s jobs are available",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -900,13 +1038,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment confirms stranger side quests persist after the story generally but does not identify Billy’s final job; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Excludes Billy’s strand from the eight-strand tracker; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for The Lone Rider gives this objective: Complete the final mission for Billy; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -922,11 +1066,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set. Where: Stranger mission strands throughout Leonida. Timing: No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
-      "steps": "Track eight completed stranger mission strands across Leonida. Count finished strands rather than individual missions; do not assume the named contact trophies are the entire set.",
-      "where": "Stranger mission strands throughout Leonida.",
-      "timing": "No strand list or deadline is supplied. Complete available strands during exploration as a precaution.",
+      "roadmap": "Stranger tally",
+      "guide": "Eight qualifying strands are needed; GTABase lists Kirk, Kyle, Yago and Pilot Pete as examples and says some named trophy strands do not count [S4][S6].",
+      "steps": "1. Start with confirmed strands.\n2. Finish each strand fully.\n3. Compare the PS5 tracker before and after each additional strand.",
+      "where": "Stranger mission markers and PS5 trophy tracker",
+      "timing": "During free roam, including after the story [S2][S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -937,21 +1081,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Confirms that the open-world stranger strands are still available after the story; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies Kirk, Kyle, Yago and Pilot Pete as strands that count; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Strangers & Freaks gives this objective: Complete 8 mission strands for strangers across the state of Leonida; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Stranger strands",
       "counter": {
+        "sourceRef": "S1",
         "target": 8,
-        "unit": "strands",
-        "sourceRef": "S1"
+        "unit": "strands"
       }
     },
     {
@@ -963,11 +1113,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished. Where: Randy's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
-      "steps": "Continue Randy's missions through the final assignment. Verify its completion before ticking the trophy, even if other stranger strands are already finished.",
-      "where": "Randy's mission strand; starting location unknown.",
-      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "roadmap": "Randy’s wish list",
+      "guide": "Randy wants 16 sports cars after the Chapter 3 Key Cloner mission; WAiNK checks cars against his list [S2][S4].",
+      "steps": "1. Open the wish list after getting the Key Cloner.\n2. Scan candidate cars and deliver matches to Randy’s garage.\n3. Finish his strand.",
+      "where": "RK marker in west Vice City",
+      "timing": "Chapter 3 onward",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -978,13 +1128,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Points to west Vice City’s RK marker and the WAiNK wish list check; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places the 16-car wish list after the Key Cloner mission; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Supply & Demand gives this objective: Complete the final mission for Randy; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1000,11 +1156,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement. Where: Tyrone's mission strand; starting location unknown. Timing: The description states no cutoff. Availability after the story is unverified.",
-      "steps": "Finish Tyrone's mission strand. Work through its available assignments rather than assuming a single encounter completes the requirement.",
-      "where": "Tyrone's mission strand; starting location unknown.",
-      "timing": "The description states no cutoff. Availability after the story is unverified.",
+      "roadmap": "Tyrone’s strand",
+      "guide": "Finish Tyrone’s last mission for this award [S6]; his line is excluded from the eight-strand tracker by GTABase [S4].",
+      "steps": "1. Follow Tyrone’s markers to the final job.\n2. Check for this trophy when the job ends.",
+      "where": "Tyrone’s mission markers",
+      "timing": "When Tyrone’s strand opens",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1015,13 +1171,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The adjacent detail is for Randy’s deliveries; the excerpt does not show Tyrone’s final mission; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Excludes Tyrone’s strand from the eight-strand tracker; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Spin On This! gives this objective: Complete the final mission for Tyrone; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1037,11 +1199,11 @@
       "kind": "collectibles",
       "missable": true,
       "missableStatus": "Possibly missable: the balcony window is known; its necessity for the trophy is unconfirmed.",
-      "roadmap": "Chapter 1 balcony first; finish remaining spots during exploration",
-      "guide": "POSSIBLY MISSABLE: Do the balcony meditation before Chapter 1 ends. The spot guide labels this session missable; the trophy roadmap and GTABase say the trophy itself is only possibly missable because the balcony requirement is unconfirmed. [S2][S3][S4]\n1. In Chapter 1 after Down to Earth, accept Lucia’s balcony meditation at Jason’s house. [S3]\n2. Keep a separate Chapter 1 save until the trophy unlocks. [S2][S3]\n3. Track 18 meditation actions across 10 spots under Progress > Collections > Exploration > Meditations. [S3]\n4. Visit Ascent on Mount Kalaga after the other 17 meditations; the final spot appears then. [S3]",
-      "steps": "1. In Chapter 1 after Down to Earth, accept Lucia’s balcony meditation at Jason’s house. [S3]\n2. Keep a separate Chapter 1 save until the trophy unlocks. [S2][S3]\n3. Track 18 meditation actions across 10 spots under Progress > Collections > Exploration > Meditations. [S3]\n4. Visit Ascent on Mount Kalaga after the other 17 meditations; the final spot appears then. [S3]",
-      "where": "Jason’s house balcony first; remaining spots across Leonida, ending at Ascent on Mount Kalaga. [S3]",
-      "timing": "POSSIBLY MISSABLE: Do the balcony meditation before Chapter 1 ends. The spot guide labels this session missable; the trophy roadmap and GTABase say the trophy itself is only possibly missable because the balcony requirement is unconfirmed. [S2][S3][S4]",
+      "roadmap": "Early balcony safeguard",
+      "guide": "PowerPyx’s spot guide labels the balcony session missable [S3]. The PowerPyx roadmap and GTABase call the trophy itself only possibly missable because whether the balcony session is required remains unconfirmed [S2][S4]. Progress > Collections > Exploration > Meditations tracks the sessions separately from the PS5 trophy [S3][S4].",
+      "steps": "1. Chapter 1 after Down to Earth: follow Lucia from the kitchen to the balcony and accept the prompt [S3].\n2. Keep a separate Chapter 1 save before advancing the story [S3].\n3. Log 18 meditation actions across 10 spots in the Meditations tracker [S3].\n4. Complete Ascent on Mount Kalaga after the other 17 meditations [S3].",
+      "where": "Home balcony first; purple meditation markers across Leonida [S3]",
+      "timing": "Do the balcony session before Chapter 1 ends; its requirement is unconfirmed [S2][S4].",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1052,33 +1214,39 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. Flags the Chapter 1 balcony meditation as possibly required.",
-          "verification": "live"
-        },
-        {
-          "name": "[S3] PowerPyx Meditation Spot Locations",
-          "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
-          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. 18 meditation actions across 10 spots; balcony cutoff and final Ascent unlock.",
+          "note": "Lists the trophy as potentially missable and points to the Chapter 1 meditation window; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Coordinator-fetched HTML (HTTP 200): read 20 Nov 2026. Lists Positive Mental Attitude as possibly missable.",
+          "note": "Calls the trophy possibly missable and does not confirm whether it needs the Chapter 1 balcony session; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Positive Mental Attitude gives this objective: Meditate at every spot across Leonida; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S3] PowerPyx All Meditation Spot Locations",
+          "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+          "note": "The spot guide covers 18 meditations across 10 spots, the Chapter 1 balcony session and tracking under Progress > Collections > Exploration > Meditations; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S5] GmTreks Meditation Guide",
           "url": "https://gmtreks.com/gta6/page/01M7QVDV9V6SV9W03RH60W1P4B",
-          "note": "Corroborates 18 meditations across 10 locations, the Chapter 1 balcony cutoff and Ascent after the other spots. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200); the trophy requirement remains unconfirmed in PowerPyx.",
+          "note": "The meditation guide extract has a title match in the extracted index, but the nearby text does not establish a meditation mechanic or location; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Collectibles and exploration",
       "counter": {
+        "sourceRef": "S3",
         "target": 18,
-        "unit": "meditations",
-        "sourceRef": "S3"
+        "unit": "meditations"
       }
     },
     {
@@ -1090,11 +1258,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title. Where: Bret's hunting objective; target and region unspecified. Timing: No deadline or repeatability information is supplied.",
-      "steps": "Pursue Bret's unique-animal hunting objective when it becomes available. Confirm the target through the in-game objective instead of guessing a species from this title.",
-      "where": "Bret's hunting objective; target and region unspecified.",
-      "timing": "No deadline or repeatability information is supplied.",
+      "roadmap": "Bret’s hunt",
+      "guide": "Bret’s Target Decks are a Jason route, marked by purple hunting icons [S2][S4]. GTABase does not confirm which animal triggers the trophy, so track the remaining decks if your first return does not unlock it [S4].",
+      "steps": "1. Follow Bret’s message as Jason.\n2. Take on his requested hunt.\n3. Return with the unique animal.",
+      "where": "Lummox County and Bret’s hunting markers",
+      "timing": "When Jason receives Bret’s message; available after story [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1105,13 +1273,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes a post-story Jason route to Bret’s Veteran Hunted and purple hunting markers; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes the Jason-only Target Deck route without identifying which animal awards the trophy; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Fair Game gives this objective: Hunt a unique animal for Bret; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1127,11 +1301,11 @@
       "kind": "collectibles",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Collectibles & exploration",
-      "guide": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards. Where: Collectible Card sets; individual card locations unspecified. Timing: No missable card or story cutoff is identified in the description.",
-      "steps": "Track cards by set and finish three sets. A total of three cards is not equivalent to three complete sets; use the game's set record to identify missing cards.",
-      "where": "Collectible Card sets; individual card locations unspecified.",
-      "timing": "No missable card or story cutoff is identified in the description.",
+      "roadmap": "Card set cleanup",
+      "guide": "Three completed sets are enough; GTABase points to Collections for progress by set [S4].",
+      "steps": "1. Find your three closest sets in Collections.\n2. Fill only their missing cards first.\n3. Verify all three show complete.",
+      "where": "Collectible card locations and Progress > Collections",
+      "timing": "During exploration or cleanup",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1142,21 +1316,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "References card set locations but the available fragment does not show the set requirement; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Allows any three sets and points to Collections for tracking; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Don't Touch My Deck gives this objective: Complete 3 Collectible Card sets; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Collectibles and exploration",
       "counter": {
+        "sourceRef": "S1",
         "target": 3,
-        "unit": "card sets",
-        "sourceRef": "S1"
+        "unit": "card sets"
       }
     },
     {
@@ -1168,11 +1348,11 @@
       "kind": "collectibles",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Collectibles & exploration",
-      "guide": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place. Where: 100 WAiNK It locations; no coordinates supplied. Timing: No permanent cutoff is stated.",
-      "steps": "Record locations where you have used WAiNK It until the total reaches 100. Keep locations distinct in your notes; the trophy specifies locations rather than repeated uses in one place.",
-      "where": "100 WAiNK It locations; no coordinates supplied.",
-      "timing": "No permanent cutoff is stated.",
+      "roadmap": "WAiNK map scans",
+      "guide": "PowerPyx says that the 100 scans can come from a pool larger than the trophy target [S2].",
+      "steps": "1. Scan new WAiNK objects while exploring.\n2. Prioritize unvisited markers over rescanning the same location.",
+      "where": "WAiNK locations across Leonida",
+      "timing": "Pair with map exploration",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1183,13 +1363,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Explains that any 100 from the larger pool of WAiNK scans qualify; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists several categories of scan locations and lets any 100 count; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for You WAiNKer! gives this objective: WAiNK It at 100 locations; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1205,11 +1391,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them. Where: Challenges; individual objectives and locations unspecified. Timing: No cutoff or required challenge selection is supplied.",
-      "steps": "Work through available Challenges and track completions toward 50. Attempts and partial progress are not completed Challenges; check the game's record before counting them.",
-      "where": "Challenges; individual objectives and locations unspecified.",
-      "timing": "No cutoff or required challenge selection is supplied.",
+      "roadmap": "Challenge cleanup",
+      "guide": "Finish 50 of the 80 available challenges; completed entries have a tick in Progress > Challenges [S2][S4].",
+      "steps": "1. Check Progress > Challenges for entries without a tick [S4].\n2. Pick unfinished challenges near your other routes.\n3. Check for 50 completed entries before stopping.",
+      "where": "Progress > Challenges and the linked activity locations [S4]",
+      "timing": "During side activity cleanup",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1220,21 +1406,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Counts 80 available challenges and requires 50 completions for the trophy; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Shows that 50 of 80 challenges qualify and that Progress > Challenges marks finished entries; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for One Last Thing gives this objective: Complete 50 Challenges; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Minigames and challenges",
       "counter": {
+        "sourceRef": "S1",
         "target": 50,
-        "unit": "challenges",
-        "sourceRef": "S1"
+        "unit": "challenges"
       }
     },
     {
@@ -1246,11 +1438,11 @@
       "kind": "missable",
       "missable": true,
       "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
-      "roadmap": "Watch before advancing",
-      "guide": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape. Where: Any situation meeting the partner and four-star conditions. Timing: Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
-      "steps": "With your partner present, lose a four-star Wanted Level and complete the escape from the heat. Confirm both the partner and wanted-level conditions before attempting the escape.",
-      "where": "Any situation meeting the partner and four-star conditions.",
-      "timing": "Setup-sensitive precaution: attempting this alone misses the stated condition. A permanent story cutoff is not confirmed.",
+      "roadmap": "Partner escape",
+      "guide": "Both characters must escape a four-star Wanted Level together [S6]; GTABase flags bank vaults as a four-star setup [S4].",
+      "steps": "1. Make a manual save and call your partner after Coffee Break [S4].\n2. Reach four stars together in free roam or through a vault job [S4].\n3. Keep your partner with you until you are clear of the red heat zone [S4].",
+      "where": "Free roam with the partner present",
+      "timing": "After Coffee Break in Chapter 2 [S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1261,13 +1453,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Reports the in-game tunnel north of Ambrosia as an escape option; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places partner play after Coffee Break and requires clearing the red heat zone; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Hot Together gives this objective: Lose a 4 star Wanted Level with your partner and escape the heat; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1283,11 +1481,11 @@
       "kind": "missable",
       "missable": true,
       "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
-      "roadmap": "Watch before advancing",
-      "guide": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken. Where: Three shops; their locations are not supplied. Timing: Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
-      "steps": "While with your partner, rob three shops in succession and retain your Wanted Level throughout the sequence. If the Wanted Level ends before the third robbery, the stated sequence has been broken.",
-      "where": "Three shops; their locations are not supplied.",
-      "timing": "Setup-sensitive precaution: do not lose the Wanted Level between shops. Partner availability and permanent missability are unverified.",
+      "roadmap": "Three-shop chain",
+      "guide": "The three robberies must share one active Wanted Level; PowerPyx distinguishes flashing red and blue from the red heat indicator [S2][S4].",
+      "steps": "1. Save before starting.\n2. Take your partner to the first of three nearby targets.\n3. Hit the other two before the wanted state clears.",
+      "where": "Three north Vice City jewelry stores are a suggested cluster [S2][S4]",
+      "timing": "After Coffee Break for partner play; the jewelry route opens during Chapter 3 [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1298,13 +1496,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Distinguishes the active red-and-blue wanted indicator from the red heat zone; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Recommends the north Vice City jewelry cluster for keeping the chain active; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Retail Therapy gives this objective: Rob 3 shops back-to-back with your partner without losing your Wanted Level; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1320,11 +1524,11 @@
       "kind": "collectibles",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Collectibles & exploration",
-      "guide": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied. Where: Vehicles encountered during exploration. Timing: No cutoff or required vehicle list is supplied.",
-      "steps": "Keep discovering vehicles until the game registers 100. Do not assume that owning, buying or registering a vehicle is the same as discovering it; the exact discovery trigger is not supplied.",
-      "where": "Vehicles encountered during exploration.",
-      "timing": "No cutoff or required vehicle list is supplied.",
+      "roadmap": "Vehicle discoveries",
+      "guide": "GTABase distinguishes the 100 discoveries from the larger 200-base-model requirement for 100% [S4][S6].",
+      "steps": "1. Discover models as you travel.\n2. Include boats and aircraft as you find them [S2].\n3. Record new discoveries toward 100.",
+      "where": "Traffic and vehicle spawns throughout Leonida",
+      "timing": "Start during the story",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1335,21 +1539,27 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Suggests scanning boats and aircraft as well as land vehicles; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Separates the trophy’s 100 discoveries from the checklist’s 200 base models; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Whip It Good gives this objective: Discover 100 vehicles; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
       "group": "Collectibles and exploration",
       "counter": {
+        "sourceRef": "S1",
         "target": 100,
-        "unit": "vehicles",
-        "sourceRef": "S1"
+        "unit": "vehicles"
       }
     },
     {
@@ -1361,11 +1571,11 @@
       "kind": "missable",
       "missable": true,
       "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
-      "roadmap": "Watch before advancing",
-      "guide": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description. Where: A combat encounter with enough enemies; no encounter is specified. Timing: Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
-      "steps": "Use one Combat Focus activation to take down five enemies. Plan for all five within that single use; five takedowns spread over separate activations do not meet the description.",
-      "where": "A combat encounter with enough enemies; no encounter is specified.",
-      "timing": "Setup-sensitive precaution: the single-use window matters. No permanent missable encounter is identified.",
+      "roadmap": "Single Focus burst",
+      "guide": "Five enemies must fall during one activation; Adrenaline can extend the short window [S2][S4].",
+      "steps": "1. Save before the encounter.\n2. Refill Focus and prepare Adrenaline.\n3. Start Combat Focus with enough enemies in reach and finish all five within the same activation.",
+      "where": "An in-game encounter with a group of enemies",
+      "timing": "After Combat Focus is available",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1376,13 +1586,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes the short Focus window and Adrenaline as a way to extend it; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes filling Focus first and extending the single activation with Adrenaline; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Gunslinger gives this objective: Take down 5 enemies in a single use of Combat Focus; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1398,11 +1614,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source. Where: VCIA, as named in the description. Timing: Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
-      "steps": "Investigate the departure requirement at VCIA. The description establishes the venue but not the vehicle, route or trigger, so no verified step-by-step solution is available in this source.",
-      "where": "VCIA, as named in the description.",
-      "timing": "Unlock method, timing and missability remain unknown. Keep this unchecked until earned.",
+      "roadmap": "Airport departure",
+      "guide": "Both guides point to a passenger jet attached to a boarding bridge rather than one parked out on the airfield [S2][S4].",
+      "steps": "1. Test a docked jet at E3 or E4.\n2. Take off and keep flying away before checking for the unlock.",
+      "where": "VCIA departure gates E3 and E4 [S2][S4]",
+      "timing": "Free roam; exact cutoff unresolved",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1413,13 +1629,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Specifies a passenger plane docked at E3 or E4; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Specifies a gate jet rather than a plane parked out on the airfield; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Catch Me If You Can gives this objective: Make an unscheduled departure at VCIA; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1435,11 +1657,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred. Where: Not established by the supplied description. Timing: Timing and missability are unknown. Do not spend resources on an assumed solution.",
-      "steps": "The description is a clue, not a procedure. It mentions Rhinos, but does not establish a required action, location or vehicle interaction; a precise unlock route cannot be responsibly inferred.",
-      "where": "Not established by the supplied description.",
-      "timing": "Timing and missability are unknown. Do not spend resources on an assumed solution.",
+      "roadmap": "Rhino lead",
+      "guide": "The guides point to a Rhino at Mile Zero Air Station; PowerPyx reports using it against in-game enemies [S2][S4].",
+      "steps": "1. Save before testing.\n2. Locate a Rhino on the south side of the base.\n3. Check the trophy after attempting the reported tank encounter.",
+      "where": "Mile Zero Air Station, Mariana County",
+      "timing": "Free roam; exact trigger details unresolved",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1450,13 +1672,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Points to the tanks on the south side of Mile Zero Air Station; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies Mile Zero Air Station in Mariana County and reports using the tank against enemies; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Challenging Tank gives this objective: Kinda hot in these Rhinos; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1472,11 +1700,11 @@
       "kind": "missable",
       "missable": true,
       "missableStatus": "Setup-sensitive attempt; permanent lockout unverified.",
-      "roadmap": "Watch before advancing",
-      "guide": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient. Where: A jewelry store; no specific store is named. Timing: Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
-      "steps": "Complete a jewelry-store robbery while remaining undetected. Treat detection as a failed condition for that attempt; this description does not establish that an alarm-free escape alone is sufficient.",
-      "where": "A jewelry store; no specific store is named.",
-      "timing": "Setup-sensitive precaution: detection breaks the stated condition. Permanent missability and retry mechanics are unverified.",
+      "roadmap": "Undetected jewelry run",
+      "guide": "GTABase recommends Richardson Jewelry & Diamonds as a candidate and describes taking the safe without being spotted [S4].",
+      "steps": "1. Save after getting Yasmani’s Snap Gun [S4].\n2. Try the locked back entrance at Richardson Jewelry & Diamonds and take the safe without being seen [S4].\n3. Reload the setup save if spotted.",
+      "where": "Richardson Jewelry & Diamonds, Vice City [S4]",
+      "timing": "After Yasmani’s Jewelry Jobs in Chapter 3 [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1487,13 +1715,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Places the jewelry robbery route after Yasmani’s Jewelry Jobs; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Suggests Richardson Jewelry & Diamonds and the Snap Gun from Yasmani’s job; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Sneakthief gives this objective: Rob a jewelry store without being detected; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1509,11 +1743,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement. Where: Bank vaults; specific banks are not supplied. Timing: No story cutoff is stated. Whether repeat vaults qualify is not established.",
-      "steps": "Record five bank-vault robberies that end in an escape. Opening or robbing a vault without completing the escape is not the whole requirement.",
-      "where": "Bank vaults; specific banks are not supplied.",
-      "timing": "No story cutoff is stated. Whether repeat vaults qualify is not established.",
+      "roadmap": "Vault escapes",
+      "guide": "Chapter 4’s optional That’s Where The Money Is… opens the bank vault route; five escapes suffice here, while the 100% checklist requires all eight [S2][S4].",
+      "steps": "1. Finish the optional café job with your partner.\n2. Follow a security van and enter while the vault is open [S4].\n3. Hand off a bag to your partner, escape and check the vault marker before choosing the next site [S2][S4].",
+      "where": "Bank vault markers",
+      "timing": "From the Chapter 4 café job onward [S4]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1524,13 +1758,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Explains that bank icons show which vaults have been robbed; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and silver grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Requires five of eight vaults for the trophy and all eight for full completion; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Maximum Withdrawal gives this objective: Rob 5 Bank Vaults and escape; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1546,11 +1786,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents. Where: An Armored Truck encounter; no route is supplied. Timing: No deadline or specific truck is identified.",
-      "steps": "Rob an Armored Truck and complete the escape afterward. Treat the escape as part of the objective rather than marking this immediately on taking the contents.",
-      "where": "An Armored Truck encounter; no route is supplied.",
-      "timing": "No deadline or specific truck is identified.",
+      "roadmap": "Armored truck escape",
+      "guide": "PowerPyx identifies the Chapter 4 café job as the route that introduces the armored truck robbery [S2].",
+      "steps": "1. Follow That’s Where The Money Is….\n2. Complete the truck objective.\n3. Leave the heat radius before checking the trophy.",
+      "where": "Chapter 4 optional café mission",
+      "timing": "When the café mission appears",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1561,13 +1801,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies the optional Chapter 4 café job as the introductory route; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Reports that a vault job also qualifies if the heat is cleared; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for A Classic Blitz Play gives this objective: Rob an Armored Truck and escape; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1583,11 +1829,11 @@
       "kind": "collectibles",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Collectibles & exploration",
-      "guide": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method. Where: The state of Leonida. Timing: No cutoff is stated; the exact exploration threshold is unspecified.",
-      "steps": "Explore Leonida systematically and use the game's exploration record, where available, to identify gaps. The description does not specify a number of areas or a reveal method.",
-      "where": "The state of Leonida.",
-      "timing": "No cutoff is stated; the exact exploration threshold is unspecified.",
+      "roadmap": "Map fog cleanup",
+      "guide": "Uncover the entire Leonida map; GTABase suggests a plane for isolated dark patches [S2][S4].",
+      "steps": "1. Check the map for fog.\n2. Sweep broad dark areas by air and revisit any thin gaps.",
+      "where": "Leonida map, including outlying patches",
+      "timing": "After opening up free roam",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1598,13 +1844,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes uncovering the full map rather than reaching a set of named locations; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Suggests using a plane to uncover remaining fog; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for The Goodtime State gives this objective: Explore all of Leonida; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1620,11 +1872,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count. Where: Illegal Operations belonging to each gang. Timing: No cutoff, order or specific operation is supplied.",
-      "steps": "Keep a gang-by-gang record of Illegal Operations robbed. Cover each gang rather than repeating operations for the same one; the description does not supply gang names or a count.",
-      "where": "Illegal Operations belonging to each gang.",
-      "timing": "No cutoff, order or specific operation is supplied.",
+      "roadmap": "Gang variety",
+      "guide": "Rob an operation from each of the nine gangs; use Progress > Gangs to track which groups are covered [S2][S4].",
+      "steps": "1. Pick an operation for an uncredited gang.\n2. Finish it and recheck the gang entry.\n3. Repeat until every gang is represented.",
+      "where": "Yellow gang operation markers [S2][S4]",
+      "timing": "Alongside the 100% gang cleanup",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1635,13 +1887,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Separates one operation per gang from all 39 for full completion; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies nine gangs and points to Progress > Gangs; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Pest Control gives this objective: Rob an Illegal Operation belonging to each gang; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1657,11 +1915,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day. Where: Ocean Beach. Timing: No timing window or missable condition is stated.",
-      "steps": "At Ocean Beach, pursue the cocktail-with-a-view condition. The description establishes the area and action, but not a particular bar, seat or time of day.",
-      "where": "Ocean Beach.",
-      "timing": "No timing window or missable condition is stated.",
+      "roadmap": "Ocean Beach cocktail",
+      "guide": "The list points to having a cocktail with an Ocean Beach view; the GTABase extract does not identify a confirmed venue or interaction [S4][S6].",
+      "steps": "1. Check venues facing Ocean Beach for a cocktail interaction.\n2. Note the venue if the trophy appears.",
+      "where": "Ocean Beach, Vice City",
+      "timing": "During free roam; exact setup unverified",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1672,13 +1930,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not show the cocktail venue or interaction; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Lists the Ocean Beach view but leaves the exact cocktail setup unconfirmed; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for In The Beginning… gives this objective: Enjoy a cocktail with a view on Ocean Beach; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1694,11 +1958,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source. Where: A vehicle showroom; no particular one is supplied. Timing: No confirmed timing window or permanent missability is provided.",
-      "steps": "The stated action is to smash out of a vehicle showroom. The wording does not identify a showroom, vehicle or exact trigger for classic style; those details need a verified source.",
-      "where": "A vehicle showroom; no particular one is supplied.",
-      "timing": "No confirmed timing window or permanent missability is provided.",
+      "roadmap": "Showroom clue",
+      "guide": "GTA BOOM lists the showroom exit clue; the PowerPyx excerpt mentions a specific blue Banshee immediately before the bowling entry, but the visible fragment does not show the preceding trophy heading [S2][S6].",
+      "steps": "1. Keep a save.\n2. Treat the showroom and blue Banshee as leads and check the trophy after an attempt.",
+      "where": "Vehicle showroom; exact branch unverified",
+      "timing": "During free roam; unlock details unresolved",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1709,13 +1973,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The nearby fragment singles out a blue Banshee, but does not show the heading that would tie it to this trophy; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not identify a specific showroom or car; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Capital Offense gives this objective: Smash your way out of a vehicle showroom in classic style; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1731,11 +2001,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified. Where: Kolt & Associates' bowling alley. Timing: No score, time window or permanent missability is established.",
-      "steps": "Investigate the bowling-related condition at Kolt & Associates' bowling alley. The phrase follow-through does not establish a score target or exact interaction, so a precise unlock is not verified.",
-      "where": "Kolt & Associates' bowling alley.",
-      "timing": "No score, time window or permanent missability is established.",
+      "roadmap": "Kingpin Bowling lead",
+      "guide": "The guides tie the bowling clue to the three valuables at Kingpin Bowling and escaping police after the robbery [S2][S4].",
+      "steps": "1. Follow Hit Kingpin Bowling.\n2. Locate the office watch, table shotgun and hallway safe.\n3. Lose the police and check the trophy.",
+      "where": "Kingpin Bowling, Port Gellhorn [S2][S4]",
+      "timing": "Chapter 2 optional job; the guides describe a later retry, but exact respawn timing is unverified [S2][S4].",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1746,13 +2016,13 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Links the bowling clue to recovering three valuables at Kingpin Bowling; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Names the watch, shotgun and safe and reports that the award arrives after losing the police; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1768,11 +2038,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
-      "steps": "This description provides only a partnership clue. It does not name an activity, location or threshold; retain this as an unresolved objective rather than following a guessed walkthrough.",
-      "where": "Not established by the supplied description.",
-      "timing": "Timing and missability are unknown.",
+      "roadmap": "Partner strength lead",
+      "guide": "GTABase points to raising Strength on both Jason and Lucia and says training together advances both [S4].",
+      "steps": "1. Check each character’s Strength.\n2. Try training with the partner present.\n3. Check both stats and the trophy after the session.",
+      "where": "Fitness clubs listed under Map > Activities [S2][S4]",
+      "timing": "Once both characters can train together",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1783,13 +2053,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Mentions fitness clubs in Vice City and home training after the story; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Reports that training with a partner raises both characters’ Strength; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Personal Best gives this objective: A partnership with mass appeal; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1805,11 +2081,11 @@
       "kind": "missable",
       "missable": true,
       "missableStatus": "Unknown trigger; keep a save before consequential choices.",
-      "roadmap": "Watch before advancing",
-      "guide": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified. Where: Choice-related play; no mission or venue is identified. Timing: Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
-      "steps": "The description points to choices but gives no qualifying choices, count or required outcome. Keep a separate save before consequential decisions as a precaution; do not treat any particular decision as verified.",
-      "where": "Choice-related play; no mission or venue is identified.",
-      "timing": "Precautionary watchlist only: a permanent lockout is not established, and no choice count is supplied.",
+      "roadmap": "Choices and save safeguard",
+      "guide": "PowerPyx and GTABase report a 500-action Criminal Profile route [S2][S4]; the official clue alone does not specify a trigger and this route is not independently confirmed here.",
+      "steps": "1. Keep a save before consequential choices.\n2. Turn on Criminal Profile notifications if testing the reported route.\n3. Check the trophy tracker as actions register.",
+      "where": "Criminal Profile notifications and PS5 trophy tracker",
+      "timing": "During normal play; save before consequential choices",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1820,13 +2096,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Reports a 500-action Criminal Profile route and a PS5 trophy tracker count; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Reports the 500-action route and cautions that the Irredeemable profile is permanent; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Actions Speak Louder gives this objective: Choices made (for better or worse); read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1842,11 +2124,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated. Where: Not established by the supplied description. Timing: Timing, retry rules and missability are unknown.",
-      "steps": "Second time's the charm is the only supplied clue. It does not establish what to repeat or where, so no reliable two-attempt procedure can be stated.",
-      "where": "Not established by the supplied description.",
-      "timing": "Timing, retry rules and missability are unknown.",
+      "roadmap": "Second-attempt lead",
+      "guide": "GTABase leaves the second-attempt clue unresolved [S4]; a PowerPyx fragment describes a later solo Lucia revisit to a Payday Loans store as a lead [S2].",
+      "steps": "1. Keep a save.\n2. Note the first outcome.\n3. If testing the revisit, check the trophy after leaving on foot.",
+      "where": "Payday Loans in Little Cuba is the reported lead [S2]",
+      "timing": "After Credit Check in Chapter 3 if testing that lead [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1857,13 +2139,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy entry confirms the objective and bronze grade; the guide explicitly says the unlock method is unknown. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The nearby fragment describes revisiting Payday Loans as Lucia and leaving on foot, but omits the trophy heading; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Leaves the exact second-attempt trigger unresolved; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Bad Luck, I Guess gives this objective: Second time's the charm; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1879,11 +2167,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "Unlock details and missability unresolved.",
-      "roadmap": "Activities & cleanup",
-      "guide": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more. Where: Not established by the supplied description. Timing: Timing and missability are unknown.",
-      "steps": "The description records a surprising event without naming it. No location, time or action is supplied; leave the objective unresolved until an in-game unlock or a verified guide establishes more.",
-      "where": "Not established by the supplied description.",
-      "timing": "Timing and missability are unknown.",
+      "roadmap": "Kelly County sighting lead",
+      "guide": "GTABase leaves the event unresolved [S4]; PowerPyx describes a nighttime UFO encounter near Starlet Motel [S2].",
+      "steps": "1. Save and visit solo after 2 AM.\n2. Look for a blinking roadside car.\n3. Follow the encounter if present and check the trophy.",
+      "where": "Road northwest of Starlet Motel, Kelly County [S2]",
+      "timing": "Nighttime; the reported event is not guaranteed to spawn [S2]",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1894,13 +2182,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The fragment describes a solo UFO encounter after 2 AM near Starlet Motel, but omits the trophy heading; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Does not confirm the steps for the unusual event clue; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for The Truth Is Out There gives this objective: What the hell just happened; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1916,11 +2210,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title. Where: A melee drive-by opportunity; no location is specified. Timing: No story cutoff is stated. Exact controls and trigger are not documented here.",
-      "steps": "Perform the stated melee drive-by action. The description does not identify a vehicle or a target count; do not infer ten targets from the trophy title.",
-      "where": "A melee drive-by opportunity; no location is specified.",
-      "timing": "No story cutoff is stated. Exact controls and trigger are not documented here.",
+      "roadmap": "Melee ride-by",
+      "guide": "PowerPyx links the award to bike kicks; GTABase recognizes the melee drive-by clue but does not confirm exact steps [S2][S4].",
+      "steps": "1. Use a bike for the in-game melee move.\n2. Track successful knockdowns and check the trophy.",
+      "where": "Free-roam streets",
+      "timing": "When a bike is available",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1931,13 +2225,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes bike kicks as the melee drive-by method; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list confirms the objective and bronze grade; its guide says exact unlock steps are unconfirmed. read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Identifies the melee drive-by clue but leaves the exact steps open; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Ten Pin gives this objective: Bowl 'em over with a melee drive-by; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1953,11 +2253,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total. Where: Contacts that launder Marked Bills; none are named. Timing: No deadline or per-contact requirement is supplied.",
-      "steps": "Track earnings from laundering Marked Bills through your contacts until the amount reaches $250,000. Ordinary income or unlaundered bills should not be counted as this specific earnings total.",
-      "where": "Contacts that launder Marked Bills; none are named.",
-      "timing": "No deadline or per-contact requirement is supplied.",
+      "roadmap": "Marked bill proceeds",
+      "guide": "Laundering adds up across multiple deliveries after Credit Check unlocks the Dye Pack Jammer [S2][S4].",
+      "steps": "1. Complete Credit Check.\n2. Collect marked bills through eligible jobs and deliver them to a fence.\n3. Track $250,000 across deliveries.",
+      "where": "Bank and Payday Loans jobs; Yasmani in Vice City [S2][S4]",
+      "timing": "Chapter 3 onward",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -1968,13 +2268,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Describes the Credit Check unlock, delivery to a fence and the cumulative marked bill total; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Names banks, Payday Loans and fence deliveries as the route to the cumulative total; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Dime on the Dollar gives this objective: Earn $250,000 laundering Marked Bills through your contacts; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -1990,11 +2296,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense. Where: Shops across the game; no particular shop is required by the description. Timing: No deadline or required purchase list is supplied.",
-      "steps": "Accumulate $100,000 of spending across shops. Keep this separate from purchases elsewhere: the description names shops, not every possible expense.",
-      "where": "Shops across the game; no particular shop is required by the description.",
-      "timing": "No deadline or required purchase list is supplied.",
+      "roadmap": "Shop spending",
+      "guide": "GTABase describes a cumulative $100,000 across shop types [S4].",
+      "steps": "1. Track purchases while stocking up.\n2. Use shops you already need during cleanup.\n3. Check for the award after the combined total passes $100,000.",
+      "where": "Shops across Leonida",
+      "timing": "Throughout the run",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -2005,13 +2311,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not expose the shop-spending entry; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "Treats spending as one cumulative total across shop types; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Treat Yo Self gives this objective: Spend $100,000 across all shops; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -2027,11 +2339,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count. Where: Garage properties; addresses and prices unspecified. Timing: No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
-      "steps": "Use the in-game property record to identify and purchase every garage property. Do not substitute stored vehicles for property ownership; the description does not give a garage count.",
-      "where": "Garage properties; addresses and prices unspecified.",
-      "timing": "No cutoff is stated. Total purchase cost and unlock schedule are not supplied.",
+      "roadmap": "Garage purchase sweep",
+      "guide": "The list requires buying every garage property [S1][S6]; the available guide excerpts do not show a verified property roster.",
+      "steps": "1. Log each garage purchase.\n2. Compare the purchase list with remaining garage offers before assuming the sweep is finished.",
+      "where": "Garage property offers",
+      "timing": "When garage purchases appear and funds allow",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -2042,13 +2354,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not expose the garage purchase list; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not provide a garage property roster; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for Little Boxes gives this objective: Purchase all garage properties; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -2064,11 +2382,11 @@
       "kind": "activities",
       "missable": false,
       "missableStatus": "No cutoff documented; repeatability not verified.",
-      "roadmap": "Activities & cleanup",
-      "guide": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy. Where: The in-game Scooter Bros app. Timing: No cutoff or eligible vehicle list is supplied.",
-      "steps": "Register ten vehicles in the Scooter Bros app. Track completed registrations rather than merely discovered vehicles, since discovery has its own trophy.",
-      "where": "The in-game Scooter Bros app.",
-      "timing": "No cutoff or eligible vehicle list is supplied.",
+      "roadmap": "Scooter Bros registrations",
+      "guide": "Ten registrations in the Scooter Bros app are required [S1][S6]; the available PowerPyx and GTABase windows do not confirm eligibility rules.",
+      "steps": "1. Open Scooter Bros when available.\n2. Register eligible vehicles.\n3. Use the registration count to confirm ten accepted entries.",
+      "where": "Scooter Bros app",
+      "timing": "Once registration is available",
       "sources": [
         {
           "name": "[S1] Competition kit trophy snapshot",
@@ -2079,13 +2397,19 @@
         {
           "name": "[S2] PowerPyx Trophy Guide & Roadmap",
           "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-          "note": "Trophy guide entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not expose the Scooter Bros registration method; read 21 Nov 2026.",
           "verification": "live"
         },
         {
           "name": "[S4] GTABase Trophy List",
           "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-          "note": "Trophy list entry confirms the listed objective and bronze grade; read 20 Nov 2026 from coordinator-fetched HTML (HTTP 200).",
+          "note": "The available fragment does not give Scooter Bros vehicle eligibility; read 21 Nov 2026.",
+          "verification": "live"
+        },
+        {
+          "name": "[S6] GTA BOOM Trophy and Achievement List",
+          "url": "https://www.gtaboom.com/every-gta-6-trophy-and-achievement-at-launch-and-how-to-unlock-them-fc5f",
+          "note": "The list entry for On the Spot gives this objective: Register 10 vehicles to the Scooter Bros app; read 21 Nov 2026.",
           "verification": "live"
         }
       ],
@@ -2094,6 +2418,11 @@
     }
   ],
   "roadmapEvidence": {
+    "difficulty": "4/10",
+    "estimatedHours": 200,
+    "chapters": 5,
+    "missionReplay": false,
+    "postStoryFreeRoam": true,
     "sourceRefs": [
       "S2",
       "S4"
@@ -2102,33 +2431,14 @@
       {
         "name": "[S2] PowerPyx Trophy Guide & Roadmap",
         "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
-        "note": "Coordinator probe: read 20 Nov 2026. Difficulty 4/10, about 200 hours, five chapters, no mission replay, post-story free roam.",
+        "note": "The roadmap gives difficulty 4/10, about 200 hours and five chapters, with no mission replay and continued free roam after the story; read 21 Nov 2026.",
         "verification": "coordinator-probe"
       },
       {
         "name": "[S4] GTABase Trophy List",
         "url": "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series",
-        "note": "Coordinator probe: read 20 Nov 2026. About 200 hours, one playthrough, no online trophies, no mission replay; cheats disable trophies and saving.",
+        "note": "The list roadmap describes about 200 hours in one playthrough, no online trophies or mission replay, and warns that cheats disable trophies and saving; read 21 Nov 2026.",
         "verification": "coordinator-probe"
-      }
-    ],
-    "difficulty": "4/10",
-    "estimatedHours": 200,
-    "chapters": 5,
-    "missionReplay": false,
-    "postStoryFreeRoam": true,
-    "stages": [
-      {
-        "label": "Story and Chapter 1 balcony",
-        "estimate": "60–80 h"
-      },
-      {
-        "label": "Completion and side activities",
-        "estimate": "~100 h"
-      },
-      {
-        "label": "Remaining trophy cleanup",
-        "estimate": "~10 h"
       }
     ]
   }
