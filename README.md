@@ -22,13 +22,15 @@ Progress is saved in your browser. Use Export to back it up as JSON and Import t
 
 The six stages show earned progress for each group of trophies. PowerPyx and GTABase estimate about 200 hours in one playthrough. Each pair of cards shares one PowerPyx estimate: 60–80 hours for story and early tasks, about 100 hours for completion, and about 10 hours for cleanup.
 
+Action counters (meditations, stunts, challenges and five more) are interactive: tap −/+ in the trophy detail to log progress, and the count shows in the checklist row too. The header shows the full PSN Points total (1,230) next to the grade split.
+
 ## Sources and checks
 
-The official trophy fields come from the kit snapshot. Live sources were read on November 20, 2026. The guide records source references next to the relevant advice. [PowerPyx](https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/) · [GTABase](https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series) · [GmTreks](https://gmtreks.com/gta6/page/01M7QVDV9V6SV9W03RH60W1P4B)
+The official trophy fields come from the kit snapshot. Live sources were read on November 20–21, 2026 — 20 sources across 19 sites, listed in full in the Sources tab with the date each was read and how many of the 55 guides cite it. The guide records source references next to the relevant advice. [PowerPyx](https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/) · [GTABase](https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series) · [GmTreks](https://gmtreks.com/gta6/page/01M7QVDV9V6SV9W03RH60W1P4B)
 
 - `node scripts/validate.mjs` passed 98/98 checks.
 - `node scripts/validate.mjs --require-live-sources` passed 99/99 checks, with live source coverage for all 55 trophies.
-- Round 1 produced four screenshots in `screenshots/` and `main.ts` exited with status 0.
+- The guide ships four screenshots in `screenshots/` and `main.ts` exited with status 0.
 
 MIT licensed. Independent fan project. [make.fun bounty](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
 

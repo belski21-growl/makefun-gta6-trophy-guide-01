@@ -1,0 +1,41 @@
+/* M6: Sources tab, counter stepper, compact rail/roadmap, subgroup chips, PSN points. */
+.psn-points{color:var(--gold);font-weight:700;font-size:13px;margin:4px 0}
+.psn-points:empty{display:none}
+.subgroups{display:flex;flex-wrap:wrap;gap:6px;padding:4px 0 8px}
+.subgroups[hidden]{display:none}
+.subgroups button{font-size:12px;padding:6px 9px}
+.subgroups button.active{background:var(--mint);color:var(--bg);border-color:var(--mint)}
+.rail-sources{list-style:none;margin:0;padding:6px 10px}
+.rail-sources li{padding:4px 0;border-bottom:1px solid var(--line);font-size:11px;line-height:1.35}
+.rail-sources li:last-child{border-bottom:0}
+.rail-sources strong{font-size:11px}
+.rail-sources .cited{color:var(--mint);font-size:10px;font-weight:700;margin-left:6px;white-space:nowrap}
+.rail-sources .source-url{display:block;color:var(--muted);font-size:10px;overflow-wrap:anywhere}
+.sources-panel{padding:12px}
+.sources-directory{list-style:none;margin:0;padding:0}
+.sources-directory li{padding:10px 0;border-bottom:1px solid var(--line);font-size:12px}
+.sources-directory li:last-child{border-bottom:0}
+.sources-directory strong{font-size:13px}
+.sources-directory p{margin:4px 0 0;color:var(--muted);font-size:11px}
+.sources-directory .source-url{overflow-wrap:anywhere;color:var(--muted)}
+.counter-live{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:10px;background:var(--inset);border:1px solid var(--mint);border-radius:5px}
+.counter-live button{min-width:40px;min-height:36px;font-size:18px;font-weight:800;padding:4px 10px}
+.counter-live .counter-value{font-size:13px}
+.counter-live .counter-value strong{font-size:15px;color:var(--mint)}
+.counter-live small{flex-basis:100%;color:var(--muted);font-size:11px}
+.counter-chip{display:inline-block;margin-left:6px;padding:2px 7px;border:1px solid var(--mint);border-radius:20px;color:var(--mint);font-size:10px;font-weight:700;white-space:nowrap}
+.route-stage-compact{padding:8px;min-height:0}
+.route-stage-compact h3{font-size:15px}
+.route-stage-compact p{font-size:11px}
+.stage-chips{display:flex;flex-wrap:wrap;gap:4px}
+.stage-chip{font-size:11px;padding:4px 7px;max-width:100%;white-space:normal;text-align:left}
+.masked-count{color:var(--gold);font-weight:700;font-size:13px}
+.masked-count:empty{display:none}
+.sealed-groups{margin-top:12px}
+.sealed-groups h3{font-size:14px;margin:12px 0 6px}
+.sealed-row{display:flex;align-items:center;gap:8px;padding:7px 10px;border:1px solid var(--line);border-radius:5px;background:var(--inset);margin-bottom:6px;font-size:12px}
+.sealed-row .grade{margin-left:auto}
+.also-corroborated{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
+#audit-summary{font-size:11px}
+@media(max-width:1000px){.route-stage-compact{min-height:0}}
+/* All M6 styles remain isolated from the original stylesheet. */
